@@ -1,0 +1,1960 @@
+
+@software{2020,
+  ids = {2020a,2020b},
+  title = {Keras-Team/Keras-Applications},
+  date = {2020-05-30T20:47:31Z},
+  origdate = {2018-06-01T19:00:18Z},
+  url = {https://github.com/keras-team/keras-applications},
+  urldate = {2020-05-31},
+  abstract = {Reference implementations of popular deep learning models.},
+  organization = {{Keras}}
+}
+
+@inproceedings{andriluka2010,
+  title = {Monocular {{3D}} Pose Estimation and Tracking by Detection},
+  booktitle = {2010 {{IEEE Computer Society Conference}} on {{Computer Vision}} and {{Pattern Recognition}}},
+  author = {Andriluka, Mykhaylo and Roth, Stefan and Schiele, Bernt},
+  date = {2010-06},
+  pages = {623--630},
+  issn = {1063-6919},
+  doi = {10.1109/CVPR.2010.5540156},
+  abstract = {Automatic recovery of 3D human pose from monocular image sequences is a challenging and important research topic with numerous applications. Although current methods are able to recover 3D pose for a single person in controlled environments, they are severely challenged by real-world scenarios, such as crowded street scenes. To address this problem, we propose a three-stage process building on a number of recent advances. The first stage obtains an initial estimate of the 2D articulation and viewpoint of the person from single frames. The second stage allows early data association across frames based on tracking-by-detection. These two stages successfully accumulate the available 2D image evidence into robust estimates of 2D limb positions over short image sequences (= tracklets). The third and final stage uses those tracklet-based estimates as robust image observations to reliably recover 3D pose. We demonstrate state-of-the-art performance on the HumanEva II benchmark, and also show the applicability of our approach to articulated 3D tracking in realistic street conditions.},
+  eventtitle = {2010 {{IEEE Computer Society Conference}} on {{Computer Vision}} and {{Pattern Recognition}}},
+  file = {/Users/ben/Zotero/storage/A6JUM4UX/Andriluka et al. - 2010 - Monocular 3D pose estimation and tracking by detec.pdf;/Users/ben/Zotero/storage/NXEG6ZLC/5540156.html},
+  keywords = {2D articulation estimation,2D image evidence,2D limb position,3D human pose,articulated 3D tracking,Biological system modeling,Cameras,Computer science,crowded street scene,data association,detection tracking,Hidden Markov models,Humans,Hybrid power systems,image sequences,Image sequences,Layout,monocular 3D pose estimation,monocular image sequence,Motion estimation,object detection,optical tracking,pose estimation,Robustness,three-stage process building,tracking-by-detection,tracklet-based estimates,viewpoint estimation}
+}
+
+@inproceedings{andriluka2014,
+  title = {{{2D Human Pose Estimation}}: {{New Benchmark}} and {{State}} of the {{Art Analysis}}},
+  shorttitle = {{{2D Human Pose Estimation}}},
+  booktitle = {2014 {{IEEE Conference}} on {{Computer Vision}} and {{Pattern Recognition}}},
+  author = {Andriluka, Mykhaylo and Pishchulin, Leonid and Gehler, Peter and Schiele, Bernt},
+  date = {2014-06},
+  pages = {3686--3693},
+  publisher = {{IEEE}},
+  location = {{Columbus, OH, USA}},
+  doi = {10.1109/CVPR.2014.471},
+  url = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6909866},
+  urldate = {2020-05-28},
+  abstract = {Human pose estimation has made significant progress during the last years. However current datasets are limited in their coverage of the overall pose estimation challenges. Still these serve as the common sources to evaluate, train and compare different models on. In this paper we introduce a novel benchmark “MPII Human Pose”1 that makes a significant advance in terms of diversity and difficulty, a contribution that we feel is required for future developments in human body models. This comprehensive dataset was collected using an established taxonomy of over 800 human activities [1]. The collected images cover a wider variety of human activities than previous datasets including various recreational, occupational and householding activities, and capture people from a wider range of viewpoints. We provide a rich set of labels including positions of body joints, full 3D torso and head orientation, occlusion labels for joints and body parts, and activity labels. For each image we provide adjacent video frames to facilitate the use of motion information. Given these rich annotations we perform a detailed analysis of leading human pose estimation approaches and gaining insights for the success and failures of these methods.},
+  eventtitle = {2014 {{IEEE Conference}} on {{Computer Vision}} and {{Pattern Recognition}} ({{CVPR}})},
+  file = {/Users/ben/Zotero/storage/QPDDMYB9/Andriluka et al. - 2014 - 2D Human Pose Estimation New Benchmark and State .pdf},
+  isbn = {978-1-4799-5118-5},
+  langid = {english}
+}
+
+@article{arnab2019,
+  title = {Exploiting Temporal Context for {{3D}} Human Pose Estimation in the Wild},
+  author = {Arnab, Anurag and Doersch, Carl and Zisserman, Andrew},
+  date = {2019-05-10},
+  url = {http://arxiv.org/abs/1905.04266},
+  urldate = {2020-05-30},
+  abstract = {We present a bundle-adjustment-based algorithm for recovering accurate 3D human pose and meshes from monocular videos. Unlike previous algorithms which operate on single frames, we show that reconstructing a person over an entire sequence gives extra constraints that can resolve ambiguities. This is because videos often give multiple views of a person, yet the overall body shape does not change and 3D positions vary slowly. Our method improves not only on standard mocap-based datasets like Human 3.6M -- where we show quantitative improvements -- but also on challenging in-the-wild datasets such as Kinetics. Building upon our algorithm, we present a new dataset of more than 3 million frames of YouTube videos from Kinetics with automatically generated 3D poses and meshes. We show that retraining a single-frame 3D pose estimator on this data improves accuracy on both real-world and mocap data by evaluating on the 3DPW and HumanEVA datasets.},
+  archivePrefix = {arXiv},
+  eprint = {1905.04266},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/PPAHYRSZ/Arnab et al. - 2019 - Exploiting temporal context for 3D human pose esti.pdf;/Users/ben/Zotero/storage/THNEWCY3/1905.html},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  primaryClass = {cs}
+}
+
+@article{artacho2020,
+  title = {{{UniPose}}: {{Unified Human Pose Estimation}} in {{Single Images}} and {{Videos}}},
+  shorttitle = {{{UniPose}}},
+  author = {Artacho, Bruno and Savakis, Andreas},
+  date = {2020-01-22},
+  url = {http://arxiv.org/abs/2001.08095},
+  urldate = {2020-06-02},
+  abstract = {We propose UniPose, a unified framework for human pose estimation, based on our "Waterfall" Atrous Spatial Pooling architecture, that achieves state-of-art-results on several pose estimation metrics. Current pose estimation methods utilizing standard CNN architectures heavily rely on statistical postprocessing or predefined anchor poses for joint localization. UniPose incorporates contextual segmentation and joint localization to estimate the human pose in a single stage, with high accuracy, without relying on statistical postprocessing methods. The Waterfall module in UniPose leverages the efficiency of progressive filtering in the cascade architecture, while maintaining multi-scale fields-of-view comparable to spatial pyramid configurations. Additionally, our method is extended to UniPose-LSTM for multi-frame processing and achieves state-of-the-art results for temporal pose estimation in Video. Our results on multiple datasets demonstrate that UniPose, with a ResNet backbone and Waterfall module, is a robust and efficient architecture for pose estimation obtaining state-of-the-art results in single person pose detection for both single images and videos.},
+  archivePrefix = {arXiv},
+  eprint = {2001.08095},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/LVBUSGRX/Artacho and Savakis - 2020 - UniPose Unified Human Pose Estimation in Single I.pdf;/Users/ben/Zotero/storage/HRS58EEZ/2001.html},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  primaryClass = {cs}
+}
+
+@inproceedings{belagiannis2017,
+  title = {Recurrent {{Human Pose Estimation}}},
+  booktitle = {2017 12th {{IEEE International Conference}} on {{Automatic Face}} \& {{Gesture Recognition}} ({{FG}} 2017)},
+  author = {Belagiannis, Vasileios and Zisserman, Andrew},
+  date = {2017-05},
+  pages = {468--475},
+  publisher = {{IEEE}},
+  location = {{Washington, DC, DC, USA}},
+  doi = {10.1109/FG.2017.64},
+  url = {http://ieeexplore.ieee.org/document/7961778/},
+  urldate = {2020-05-28},
+  abstract = {We propose a ConvNet model for predicting 2D human body poses in an image. The model regresses a heatmap representation for each body keypoint, and is able to learn and represent both the part appearances and the context of the part configuration.},
+  eventtitle = {2017 12th {{IEEE International Conference}} on {{Automatic Face}} \& {{Gesture Recognition}} ({{FG}} 2017)},
+  file = {/Users/ben/Zotero/storage/7996BWBJ/Belagiannis and Zisserman - 2017 - Recurrent Human Pose Estimation.pdf},
+  isbn = {978-1-5090-4023-0},
+  langid = {english}
+}
+
+@article{campbell2001,
+  title = {Why Don't Patients Do Their Exercises? {{Understanding}} Non-Compliance with Physiotherapy in Patients with Osteoarthritis of the Knee},
+  shorttitle = {Why Don't Patients Do Their Exercises?},
+  author = {Campbell, R},
+  date = {2001-02-01},
+  journaltitle = {Journal of Epidemiology \& Community Health},
+  volume = {55},
+  pages = {132--138},
+  issn = {0143005X},
+  doi = {10.1136/jech.55.2.132},
+  url = {http://jech.bmj.com/cgi/doi/10.1136/jech.55.2.132},
+  urldate = {2020-06-01},
+  abstract = {Study objectives—To understand reasons for compliance and non-compliance with a home based exercise regimen by patients with osteoarthritis of the knee.},
+  file = {/Users/ben/Zotero/storage/P2HNDJ2F/Campbell - 2001 - Why don't patients do their exercises Understandi.pdf},
+  langid = {english},
+  number = {2}
+}
+
+@article{cao2017,
+  title = {Realtime {{Multi}}-{{Person 2D Pose Estimation}} Using {{Part Affinity Fields}}},
+  author = {Cao, Zhe and Simon, Tomas and Wei, Shih-En and Sheikh, Yaser},
+  date = {2017-04-13},
+  url = {http://arxiv.org/abs/1611.08050},
+  urldate = {2020-06-02},
+  abstract = {We present an approach to efficiently detect the 2D pose of multiple people in an image. The approach uses a nonparametric representation, which we refer to as Part Affinity Fields (PAFs), to learn to associate body parts with individuals in the image. The architecture encodes global context, allowing a greedy bottom-up parsing step that maintains high accuracy while achieving realtime performance, irrespective of the number of people in the image. The architecture is designed to jointly learn part locations and their association via two branches of the same sequential prediction process. Our method placed first in the inaugural COCO 2016 keypoints challenge, and significantly exceeds the previous state-of-the-art result on the MPII Multi-Person benchmark, both in performance and efficiency.},
+  archivePrefix = {arXiv},
+  eprint = {1611.08050},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/SGXEXSAU/Cao et al. - 2017 - Realtime Multi-Person 2D Pose Estimation using Par.pdf;/Users/ben/Zotero/storage/3T5F6IYL/1611.html},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  primaryClass = {cs}
+}
+
+@article{cao2019,
+  title = {{{OpenPose}}: {{Realtime Multi}}-{{Person 2D Pose Estimation}} Using {{Part Affinity Fields}}},
+  shorttitle = {{{OpenPose}}},
+  author = {Cao, Zhe and Hidalgo, Gines and Simon, Tomas and Wei, Shih-En and Sheikh, Yaser},
+  date = {2019-05-30},
+  url = {http://arxiv.org/abs/1812.08008},
+  urldate = {2020-05-28},
+  abstract = {Realtime multi-person 2D pose estimation is a key component in enabling machines to have an understanding of people in images and videos. In this work, we present a realtime approach to detect the 2D pose of multiple people in an image. The proposed method uses a nonparametric representation, which we refer to as Part Affinity Fields (PAFs), to learn to associate body parts with individuals in the image. This bottom-up system achieves high accuracy and realtime performance, regardless of the number of people in the image. In previous work, PAFs and body part location estimation were refined simultaneously across training stages. We demonstrate that a PAF-only refinement rather than both PAF and body part location refinement results in a substantial increase in both runtime performance and accuracy. We also present the first combined body and foot keypoint detector, based on an internal annotated foot dataset that we have publicly released. We show that the combined detector not only reduces the inference time compared to running them sequentially, but also maintains the accuracy of each component individually. This work has culminated in the release of OpenPose, the first open-source realtime system for multi-person 2D pose detection, including body, foot, hand, and facial keypoints.},
+  archivePrefix = {arXiv},
+  eprint = {1812.08008},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/ZWFE8D24/Cao et al. - 2019 - OpenPose Realtime Multi-Person 2D Pose Estimation.pdf},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  langid = {english},
+  primaryClass = {cs}
+}
+
+@article{cao2019a,
+  title = {Adversarial {{Sensor Attack}} on {{LiDAR}}-Based {{Perception}} in {{Autonomous Driving}}},
+  author = {Cao, Yulong and Xiao, Chaowei and Cyr, Benjamin and Zhou, Yimeng and Park, Won and Rampazzi, Sara and Chen, Qi Alfred and Fu, Kevin and Mao, Z. Morley},
+  date = {2019-11-06},
+  journaltitle = {Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications Security},
+  pages = {2267--2281},
+  doi = {10.1145/3319535.3339815},
+  url = {http://arxiv.org/abs/1907.06826},
+  urldate = {2020-05-31},
+  abstract = {In Autonomous Vehicles (AVs), one fundamental pillar is perception, which leverages sensors like cameras and LiDARs (Light Detection and Ranging) to understand the driving environment. Due to its direct impact on road safety, multiple prior efforts have been made to study its the security of perception systems. In contrast to prior work that concentrates on camera-based perception, in this work we perform the first security study of LiDAR-based perception in AV settings, which is highly important but unexplored. We consider LiDAR spoofing attacks as the threat model and set the attack goal as spoofing obstacles close to the front of a victim AV. We find that blindly applying LiDAR spoofing is insufficient to achieve this goal due to the machine learning-based object detection process. Thus, we then explore the possibility of strategically controlling the spoofed attack to fool the machine learning model. We formulate this task as an optimization problem and design modeling methods for the input perturbation function and the objective function. We also identify the inherent limitations of directly solving the problem using optimization and design an algorithm that combines optimization and global sampling, which improves the attack success rates to around 75\%. As a case study to understand the attack impact at the AV driving decision level, we construct and evaluate two attack scenarios that may damage road safety and mobility. We also discuss defense directions at the AV system, sensor, and machine learning model levels.},
+  archivePrefix = {arXiv},
+  eprint = {1907.06826},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/YHZ3HM7M/Cao et al. - 2019 - Adversarial Sensor Attack on LiDAR-based Perceptio.pdf},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Cryptography and Security,Electrical Engineering and Systems Science - Signal Processing,Statistics - Machine Learning},
+  langid = {english}
+}
+
+@article{carreira2018,
+  title = {Quo {{Vadis}}, {{Action Recognition}}? {{A New Model}} and the {{Kinetics Dataset}}},
+  shorttitle = {Quo {{Vadis}}, {{Action Recognition}}?},
+  author = {Carreira, Joao and Zisserman, Andrew},
+  date = {2018-02-12},
+  url = {http://arxiv.org/abs/1705.07750},
+  urldate = {2020-05-31},
+  abstract = {The paucity of videos in current action classification datasets (UCF-101 and HMDB-51) has made it difficult to identify good video architectures, as most methods obtain similar performance on existing small-scale benchmarks. This paper re-evaluates state-of-the-art architectures in light of the new Kinetics Human Action Video dataset. Kinetics has two orders of magnitude more data, with 400 human action classes and over 400 clips per class, and is collected from realistic, challenging YouTube videos. We provide an analysis on how current architectures fare on the task of action classification on this dataset and how much performance improves on the smaller benchmark datasets after pre-training on Kinetics. We also introduce a new Two-Stream Inflated 3D ConvNet (I3D) that is based on 2D ConvNet inflation: filters and pooling kernels of very deep image classification ConvNets are expanded into 3D, making it possible to learn seamless spatio-temporal feature extractors from video while leveraging successful ImageNet architecture designs and even their parameters. We show that, after pre-training on Kinetics, I3D models considerably improve upon the state-of-the-art in action classification, reaching 80.9\% on HMDB-51 and 98.0\% on UCF-101.},
+  archivePrefix = {arXiv},
+  eprint = {1705.07750},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/LQAGQK7N/Carreira and Zisserman - 2018 - Quo Vadis, Action Recognition A New Model and the.pdf;/Users/ben/Zotero/storage/X8WULAA8/1705.html},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning},
+  primaryClass = {cs}
+}
+
+@inproceedings{chen2017,
+  title = {{{3D Human Pose Estimation}} = {{2D Pose Estimation}} + {{Matching}}},
+  author = {Chen, Ching-Hang and Ramanan, Deva},
+  date = {2017},
+  pages = {7035--7043},
+  url = {http://openaccess.thecvf.com/content_cvpr_2017/html/Chen_3D_Human_Pose_CVPR_2017_paper.html},
+  urldate = {2020-05-29},
+  eventtitle = {Proceedings of the {{IEEE Conference}} on {{Computer Vision}} and {{Pattern Recognition}}},
+  file = {/Users/ben/Zotero/storage/Z6VTVN7M/Chen and Ramanan - 2017 - 3D Human Pose Estimation = 2D Pose Estimation + Ma.pdf;/Users/ben/Zotero/storage/3TQ8BI8I/Chen_3D_Human_Pose_CVPR_2017_paper.html}
+}
+
+@article{chen2019,
+  title = {Unsupervised {{3D Pose Estimation}} with {{Geometric Self}}-{{Supervision}}},
+  author = {Chen, Ching-Hang and Tyagi, Ambrish and Agrawal, Amit and Drover, Dylan and MV, Rohith and Stojanov, Stefan and Rehg, James M.},
+  date = {2019-04-09},
+  url = {http://arxiv.org/abs/1904.04812},
+  urldate = {2020-05-28},
+  abstract = {We present an unsupervised learning approach to recover 3D human pose from 2D skeletal joints extracted from a single image. Our method does not require any multiview image data, 3D skeletons, correspondences between 2D-3D points, or use previously learned 3D priors during training. A lifting network accepts 2D landmarks as inputs and generates a corresponding 3D skeleton estimate. During training, the recovered 3D skeleton is reprojected on random camera viewpoints to generate new ‘synthetic’ 2D poses. By lifting the synthetic 2D poses back to 3D and re-projecting them in the original camera view, we can define self-consistency loss both in 3D and in 2D. The training can thus be self supervised by exploiting the geometric selfconsistency of the lift-reproject-lift process. We show that self-consistency alone is not sufficient to generate realistic skeletons, however adding a 2D pose discriminator enables the lifter to output valid 3D poses. Additionally, to learn from 2D poses ‘in the wild’, we train an unsupervised 2D domain adapter network to allow for an expansion of 2D data. This improves results and demonstrates the usefulness of 2D pose data for unsupervised 3D lifting. Results on Human3.6M dataset for 3D human pose estimation demonstrate that our approach improves upon the previous unsupervised methods by 30\% and outperforms many weakly supervised approaches that explicitly use 3D data.},
+  archivePrefix = {arXiv},
+  eprint = {1904.04812},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/TI28GEIG/Chen et al. - 2019 - Unsupervised 3D Pose Estimation with Geometric Sel.pdf},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  langid = {english},
+  primaryClass = {cs}
+}
+
+@article{chen2020,
+  title = {Monocular Human Pose Estimation: {{A}} Survey of Deep Learning-Based Methods},
+  shorttitle = {Monocular Human Pose Estimation},
+  author = {Chen, Yucheng and Tian, Yingli and He, Mingyi},
+  date = {2020-03-01},
+  journaltitle = {Computer Vision and Image Understanding},
+  shortjournal = {Computer Vision and Image Understanding},
+  volume = {192},
+  pages = {102897},
+  issn = {1077-3142},
+  doi = {10.1016/j.cviu.2019.102897},
+  url = {http://www.sciencedirect.com/science/article/pii/S1077314219301778},
+  urldate = {2020-06-05},
+  abstract = {Vision-based monocular human pose estimation, as one of the most fundamental and challenging problems in computer vision, aims to obtain posture of the human body from input images or video sequences. The recent developments of deep learning techniques have been brought significant progress and remarkable breakthroughs in the field of human pose estimation. This survey extensively reviews the recent deep learning-based 2D and 3D human pose estimation methods published since 2014. This paper summarizes the challenges, main frameworks, benchmark datasets, evaluation metrics, performance comparison, and discusses some promising future research directions.},
+  file = {/Users/ben/Zotero/storage/L9YXGYU2/Chen et al. - 2020 - Monocular human pose estimation A survey of deep .pdf;/Users/ben/Zotero/storage/XDZS5QPB/S1077314219301778.html},
+  keywords = {Deep learning,Human pose estimation,Survey},
+  langid = {english}
+}
+
+@article{cheng2020,
+  title = {{{HigherHRNet}}: {{Scale}}-{{Aware Representation Learning}} for {{Bottom}}-{{Up Human Pose Estimation}}},
+  shorttitle = {{{HigherHRNet}}},
+  author = {Cheng, Bowen and Xiao, Bin and Wang, Jingdong and Shi, Honghui and Huang, Thomas S. and Zhang, Lei},
+  date = {2020-03-12},
+  url = {http://arxiv.org/abs/1908.10357},
+  urldate = {2020-06-02},
+  abstract = {Bottom-up human pose estimation methods have difficulties in predicting the correct pose for small persons due to challenges in scale variation. In this paper, we present HigherHRNet: a novel bottom-up human pose estimation method for learning scale-aware representations using high-resolution feature pyramids. Equipped with multi-resolution supervision for training and multi-resolution aggregation for inference, the proposed approach is able to solve the scale variation challenge in bottom-up multi-person pose estimation and localize keypoints more precisely, especially for small person. The feature pyramid in HigherHRNet consists of feature map outputs from HRNet and upsampled higher-resolution outputs through a transposed convolution. HigherHRNet outperforms the previous best bottom-up method by 2.5\% AP for medium person on COCO test-dev, showing its effectiveness in handling scale variation. Furthermore, HigherHRNet achieves new state-of-the-art result on COCO test-dev (70.5\% AP) without using refinement or other post-processing techniques, surpassing all existing bottom-up methods. HigherHRNet even surpasses all top-down methods on CrowdPose test (67.6\% AP), suggesting its robustness in crowded scene. The code and models are available at https://github.com/HRNet/Higher-HRNet-Human-Pose-Estimation.},
+  archivePrefix = {arXiv},
+  eprint = {1908.10357},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/5TGRRSZN/Cheng et al. - 2020 - HigherHRNet Scale-Aware Representation Learning f.pdf;/Users/ben/Zotero/storage/JZHTXE29/1908.html},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning,Electrical Engineering and Systems Science - Image and Video Processing},
+  primaryClass = {cs, eess}
+}
+
+@article{coleman,
+  title = {{{DAWNBench}}: {{An End}}-to-{{End Deep Learning Benchmark}} and {{Competition}}},
+  author = {Coleman, Cody and Narayanan, Deepak and Kang, Daniel and Zhao, Tian and Zhang, Jian and Nardi, Luigi and Bailis, Peter and Olukotun, Kunle and Ré, Chris and Zaharia, Matei},
+  pages = {10},
+  abstract = {Despite considerable research on systems, algorithms and hardware to speed up deep learning workloads, there is no standard means of evaluating end-to-end deep learning performance. Existing benchmarks measure proxy metrics, such as time to process one minibatch of data, that do not indicate whether the system as a whole will produce a high-quality result. In this work, we introduce DAWNBench, a benchmark and competition focused on end-to-end training time to achieve a state-of-the-art accuracy level, as well as inference time with that accuracy. Using time to accuracy as a target metric, we explore how different optimizations, including choice of optimizer, stochastic depth, and multi-GPU training, affect end-to-end training performance. Our results demonstrate that optimizations can interact in non-trivial ways when used in conjunction, producing lower speed-ups and less accurate models. We believe DAWNBench will provide a useful, reproducible means of evaluating the many trade-offs in deep learning systems.},
+  file = {/Users/ben/Zotero/storage/D3P23IUT/Coleman et al. - DAWNBench An End-to-End Deep Learning Benchmark a.pdf},
+  langid = {english}
+}
+
+@article{courbariaux2016,
+  title = {Binarized {{Neural Networks}}: {{Training Deep Neural Networks}} with {{Weights}} and {{Activations Constrained}} to +1 or -1},
+  shorttitle = {Binarized {{Neural Networks}}},
+  author = {Courbariaux, Matthieu and Hubara, Itay and Soudry, Daniel and El-Yaniv, Ran and Bengio, Yoshua},
+  date = {2016-03-17},
+  url = {http://arxiv.org/abs/1602.02830},
+  urldate = {2020-06-01},
+  abstract = {We introduce a method to train Binarized Neural Networks (BNNs) - neural networks with binary weights and activations at run-time. At training-time the binary weights and activations are used for computing the parameters gradients. During the forward pass, BNNs drastically reduce memory size and accesses, and replace most arithmetic operations with bit-wise operations, which is expected to substantially improve power-efficiency. To validate the effectiveness of BNNs we conduct two sets of experiments on the Torch7 and Theano frameworks. On both, BNNs achieved nearly state-of-the-art results over the MNIST, CIFAR-10 and SVHN datasets. Last but not least, we wrote a binary matrix multiplication GPU kernel with which it is possible to run our MNIST BNN 7 times faster than with an unoptimized GPU kernel, without suffering any loss in classification accuracy. The code for training and running our BNNs is available on-line.},
+  archivePrefix = {arXiv},
+  eprint = {1602.02830},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/TM7KCHXS/Courbariaux et al. - 2016 - Binarized Neural Networks Training Deep Neural Ne.pdf;/Users/ben/Zotero/storage/K8S64WUU/1602.html},
+  keywords = {Computer Science - Machine Learning},
+  primaryClass = {cs}
+}
+
+@article{dai2016,
+  title = {R-{{FCN}}: {{Object Detection}} via {{Region}}-Based {{Fully Convolutional Networks}}},
+  shorttitle = {R-{{FCN}}},
+  author = {Dai, Jifeng and Li, Yi and He, Kaiming and Sun, Jian},
+  date = {2016-06-21},
+  url = {http://arxiv.org/abs/1605.06409},
+  urldate = {2020-05-31},
+  abstract = {We present region-based, fully convolutional networks for accurate and efficient object detection. In contrast to previous region-based detectors such as Fast/Faster R-CNN [6, 18] that apply a costly per-region subnetwork hundreds of times, our region-based detector is fully convolutional with almost all computation shared on the entire image. To achieve this goal, we propose position-sensitive score maps to address a dilemma between translation-invariance in image classification and translation-variance in object detection. Our method can thus naturally adopt fully convolutional image classifier backbones, such as the latest Residual Networks (ResNets) [9], for object detection. We show competitive results on the PASCAL VOC datasets (e.g., 83.6\% mAP on the 2007 set) with the 101-layer ResNet. Meanwhile, our result is achieved at a test-time speed of 170ms per image, 2.5-20× faster than the Faster R-CNN counterpart. Code is made publicly available at: https://github.com/daijifeng001/r-fcn.},
+  archivePrefix = {arXiv},
+  eprint = {1605.06409},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/GEVRL5YX/Dai et al. - 2016 - R-FCN Object Detection via Region-based Fully Con.pdf},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  langid = {english},
+  primaryClass = {cs}
+}
+
+@article{doersch2019,
+  title = {Sim2real Transfer Learning for {{3D}} Human Pose Estimation: Motion to the Rescue},
+  shorttitle = {Sim2real Transfer Learning for {{3D}} Human Pose Estimation},
+  author = {Doersch, Carl and Zisserman, Andrew},
+  date = {2019-07-04},
+  url = {http://arxiv.org/abs/1907.02499},
+  urldate = {2020-05-29},
+  abstract = {Synthetic visual data can provide practically infinite diversity and rich labels, while avoiding ethical issues with privacy and bias. However, for many tasks, current models trained on synthetic data generalize poorly to real data. The task of 3D human pose estimation is a particularly interesting example of this sim2real problem, because learning-based approaches perform reasonably well given real training data, yet labeled 3D poses are extremely difficult to obtain in the wild, limiting scalability. In this paper, we show that standard neural-network approaches, which perform poorly when trained on synthetic RGB images, can perform well when the data is pre-processed to extract cues about the person's motion, notably as optical flow and the motion of 2D keypoints. Therefore, our results suggest that motion can be a simple way to bridge a sim2real gap when video is available. We evaluate on the 3D Poses in the Wild dataset, the most challenging modern benchmark for 3D pose estimation, where we show full 3D mesh recovery that is on par with state-of-the-art methods trained on real 3D sequences, despite training only on synthetic humans from the SURREAL dataset.},
+  archivePrefix = {arXiv},
+  eprint = {1907.02499},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/53FTQI7E/Doersch and Zisserman - 2019 - Sim2real transfer learning for 3D human pose estim.pdf;/Users/ben/Zotero/storage/NMTD9KT4/Doersch and Zisserman - 2019 - Sim2real transfer learning for 3D human pose estim.pdf;/Users/ben/Zotero/storage/VPLRGQ9H/1907.html},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  primaryClass = {cs},
+  version = {1}
+}
+
+@inproceedings{eykholt2018,
+  title = {Robust {{Physical}}-{{World Attacks}} on {{Deep Learning Visual Classification}}},
+  booktitle = {2018 {{IEEE}}/{{CVF Conference}} on {{Computer Vision}} and {{Pattern Recognition}}},
+  author = {Eykholt, Kevin and Evtimov, Ivan and Fernandes, Earlence and Li, Bo and Rahmati, Amir and Xiao, Chaowei and Prakash, Atul and Kohno, Tadayoshi and Song, Dawn},
+  date = {2018-06},
+  pages = {1625--1634},
+  publisher = {{IEEE}},
+  location = {{Salt Lake City, UT, USA}},
+  doi = {10.1109/CVPR.2018.00175},
+  url = {https://ieeexplore.ieee.org/document/8578273/},
+  urldate = {2020-05-31},
+  abstract = {Recent studies show that the state-of-the-art deep neural networks (DNNs) are vulnerable to adversarial examples, resulting from small-magnitude perturbations added to the input. Given that that emerging physical systems are using DNNs in safety-critical situations, adversarial examples could mislead these systems and cause dangerous situations. Therefore, understanding adversarial examples in the physical world is an important step towards developing resilient learning algorithms. We propose a general attack algorithm, Robust Physical Perturbations (RP2), to generate robust visual adversarial perturbations under different physical conditions. Using the real-world case of road sign classification, we show that adversarial examples generated using RP2 achieve high targeted misclassification rates against standard-architecture road sign classifiers in the physical world under various environmental conditions, including viewpoints. Due to the current lack of a standardized testing method, we propose a two-stage evaluation methodology for robust physical adversarial examples consisting of lab and field tests. Using this methodology, we evaluate the efficacy of physical adversarial manipulations on real objects. With a perturbation in the form of only black and white stickers, we attack a real stop sign, causing targeted misclassification in 100\% of the images obtained in lab settings, and in 84.8\% of the captured video frames obtained on a moving vehicle (field test) for the target classifier.},
+  eventtitle = {2018 {{IEEE}}/{{CVF Conference}} on {{Computer Vision}} and {{Pattern Recognition}} ({{CVPR}})},
+  file = {/Users/ben/Zotero/storage/HRP4QK2R/Eykholt et al. - 2018 - Robust Physical-World Attacks on Deep Learning Vis.pdf},
+  isbn = {978-1-5386-6420-9},
+  langid = {english}
+}
+
+@article{girshick2014,
+  title = {Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation},
+  author = {Girshick, Ross and Donahue, Jeff and Darrell, Trevor and Malik, Jitendra},
+  date = {2014-10-22},
+  url = {http://arxiv.org/abs/1311.2524},
+  urldate = {2020-05-31},
+  abstract = {Object detection performance, as measured on the canonical PASCAL VOC dataset, has plateaued in the last few years. The best-performing methods are complex ensemble systems that typically combine multiple low-level image features with high-level context. In this paper, we propose a simple and scalable detection algorithm that improves mean average precision (mAP) by more than 30\% relative to the previous best result on VOC 2012—achieving a mAP of 53.3\%. Our approach combines two key insights: (1) one can apply high-capacity convolutional neural networks (CNNs) to bottom-up region proposals in order to localize and segment objects and (2) when labeled training data is scarce, supervised pre-training for an auxiliary task, followed by domain-specific fine-tuning, yields a significant performance boost. Since we combine region proposals with CNNs, we call our method R-CNN: Regions with CNN features. We also compare R-CNN to OverFeat, a recently proposed sliding-window detector based on a similar CNN architecture. We find that R-CNN outperforms OverFeat by a large margin on the 200-class ILSVRC2013 detection dataset. Source code for the complete system is available at http://www.cs.berkeley.edu/˜rbg/rcnn.},
+  archivePrefix = {arXiv},
+  eprint = {1311.2524},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/V2YV5HDV/Girshick et al. - 2014 - Rich feature hierarchies for accurate object detec.pdf},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  langid = {english},
+  primaryClass = {cs}
+}
+
+@article{gong2016,
+  title = {Human {{Pose Estimation}} from {{Monocular Images}}: {{A Comprehensive Survey}}},
+  shorttitle = {Human {{Pose Estimation}} from {{Monocular Images}}},
+  author = {Gong, Wenjuan and Zhang, Xuena and Gonzàlez, Jordi and Sobral, Andrews and Bouwmans, Thierry and Tu, Changhe and Zahzah, El-hadi},
+  date = {2016-12},
+  journaltitle = {Sensors},
+  volume = {16},
+  pages = {1966},
+  publisher = {{Multidisciplinary Digital Publishing Institute}},
+  doi = {10.3390/s16121966},
+  url = {https://www.mdpi.com/1424-8220/16/12/1966},
+  urldate = {2020-06-02},
+  abstract = {Human pose estimation refers to the estimation of the location of body parts and how they are connected in an image. Human pose estimation from monocular images has wide applications (e.g., image indexing). Several surveys on human pose estimation can be found in the literature, but they focus on a certain category; for example, model-based approaches or human motion analysis, etc. As far as we know, an overall review of this problem domain has yet to be provided. Furthermore, recent advancements based on deep learning have brought novel algorithms for this problem. In this paper, a comprehensive survey of human pose estimation from monocular images is carried out including milestone works and recent advancements. Based on one standard pipeline for the solution of computer vision problems, this survey splits the problem into several modules: feature extraction and description, human body models, and modeling methods. Problem modeling methods are approached based on two means of categorization in this survey. One way to categorize includes top-down and bottom-up methods, and another way includes generative and discriminative methods. Considering the fact that one direct application of human pose estimation is to provide initialization for automatic video surveillance, there are additional sections for motion-related methods in all modules: motion features, motion models, and motion-based methods. Finally, the paper also collects 26 publicly available data sets for validation and provides error measurement methods that are frequently used.},
+  file = {/Users/ben/Zotero/storage/RP3PAZ2L/Gong et al. - 2016 - Human Pose Estimation from Monocular Images A Com.pdf;/Users/ben/Zotero/storage/2YRASI3D/1966.html},
+  issue = {12},
+  keywords = {bottom-up methods,discriminative methods,generative methods,human body models,human pose estimation,top-down methods},
+  langid = {english},
+  number = {12}
+}
+
+@article{goodfellow,
+  title = {Generative {{Adversarial Nets}}},
+  author = {Goodfellow, Ian and Pouget-Abadie, Jean and Mirza, Mehdi and Xu, Bing and Warde-Farley, David and Ozair, Sherjil and Courville, Aaron and Bengio, Yoshua},
+  pages = {9},
+  file = {/Users/ben/Zotero/storage/G6FIJJBA/Goodfellow et al. - Generative Adversarial Nets.pdf},
+  langid = {english}
+}
+
+@article{goodfellow2015,
+  title = {Explaining and {{Harnessing Adversarial Examples}}},
+  author = {Goodfellow, Ian J. and Shlens, Jonathon and Szegedy, Christian},
+  date = {2015-03-20},
+  url = {http://arxiv.org/abs/1412.6572},
+  urldate = {2020-04-13},
+  abstract = {Several machine learning models, including neural networks, consistently misclassify adversarial examples—inputs formed by applying small but intentionally worst-case perturbations to examples from the dataset, such that the perturbed input results in the model outputting an incorrect answer with high confidence. Early attempts at explaining this phenomenon focused on nonlinearity and overfitting. We argue instead that the primary cause of neural networks’ vulnerability to adversarial perturbation is their linear nature. This explanation is supported by new quantitative results while giving the first explanation of the most intriguing fact about them: their generalization across architectures and training sets. Moreover, this view yields a simple and fast method of generating adversarial examples. Using this approach to provide examples for adversarial training, we reduce the test set error of a maxout network on the MNIST dataset.},
+  archivePrefix = {arXiv},
+  eprint = {1412.6572},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/726NG958/Goodfellow et al. - 2015 - Explaining and Harnessing Adversarial Examples.pdf},
+  keywords = {Computer Science - Machine Learning,Statistics - Machine Learning},
+  langid = {english},
+  primaryClass = {cs, stat}
+}
+
+@inproceedings{gopinath2019,
+  title = {Compiling {{KB}}-Sized Machine Learning Models to Tiny {{IoT}} Devices},
+  booktitle = {Proceedings of the 40th {{ACM SIGPLAN Conference}} on {{Programming Language Design}} and {{Implementation}} - {{PLDI}} 2019},
+  author = {Gopinath, Sridhar and Ghanathe, Nikhil and Seshadri, Vivek and Sharma, Rahul},
+  date = {2019},
+  pages = {79--95},
+  publisher = {{ACM Press}},
+  location = {{Phoenix, AZ, USA}},
+  doi = {10.1145/3314221.3314597},
+  url = {http://dl.acm.org/citation.cfm?doid=3314221.3314597},
+  urldate = {2020-06-05},
+  abstract = {Recent advances in machine learning (ML) have produced KiloByte-size models that can directly run on constrained IoT devices. This approach avoids expensive communication between IoT devices and the cloud, thereby enabling energy-efficient real-time analytics. However, ML models are expressed typically in floating-point, and IoT hardware typically does not support floating-point. Therefore, running these models on IoT devices requires simulating IEEE-754 floating-point using software, which is very inefficient.},
+  eventtitle = {The 40th {{ACM SIGPLAN Conference}}},
+  file = {/Users/ben/Zotero/storage/SV3F4THW/Gopinath et al. - 2019 - Compiling KB-sized machine learning models to tiny.pdf},
+  isbn = {978-1-4503-6712-7},
+  langid = {english}
+}
+
+@article{gregor2015,
+  title = {{{DRAW}}: {{A Recurrent Neural Network For Image Generation}}},
+  shorttitle = {{{DRAW}}},
+  author = {Gregor, Karol and Danihelka, Ivo and Graves, Alex and Rezende, Danilo Jimenez and Wierstra, Daan},
+  date = {2015-05-20},
+  url = {http://arxiv.org/abs/1502.04623},
+  urldate = {2020-06-01},
+  abstract = {This paper introduces the Deep Recurrent Attentive Writer (DRAW) neural network architecture for image generation. DRAW networks combine a novel spatial attention mechanism that mimics the foveation of the human eye, with a sequential variational auto-encoding framework that allows for the iterative construction of complex images. The system substantially improves on the state of the art for generative models on MNIST, and, when trained on the Street View House Numbers dataset, it generates images that cannot be distinguished from real data with the naked eye.},
+  archivePrefix = {arXiv},
+  eprint = {1502.04623},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/WRHLM6I5/Gregor et al. - 2015 - DRAW A Recurrent Neural Network For Image Generat.pdf;/Users/ben/Zotero/storage/6H97LS9Z/1502.html},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning,Computer Science - Neural and Evolutionary Computing},
+  primaryClass = {cs}
+}
+
+@article{guler2018,
+  title = {{{DensePose}}: {{Dense Human Pose Estimation In The Wild}}},
+  shorttitle = {{{DensePose}}},
+  author = {Güler, Rıza Alp and Neverova, Natalia and Kokkinos, Iasonas},
+  date = {2018-02-01},
+  url = {http://arxiv.org/abs/1802.00434},
+  urldate = {2020-05-30},
+  abstract = {In this work, we establish dense correspondences between RGB image and a surface-based representation of the human body, a task we refer to as dense human pose estimation. We first gather dense correspondences for 50K persons appearing in the COCO dataset by introducing an efficient annotation pipeline. We then use our dataset to train CNN-based systems that deliver dense correspondence 'in the wild', namely in the presence of background, occlusions and scale variations. We improve our training set's effectiveness by training an 'inpainting' network that can fill in missing groundtruth values and report clear improvements with respect to the best results that would be achievable in the past. We experiment with fully-convolutional networks and region-based models and observe a superiority of the latter; we further improve accuracy through cascading, obtaining a system that delivers highly0accurate results in real time. Supplementary materials and videos are provided on the project page http://densepose.org},
+  archivePrefix = {arXiv},
+  eprint = {1802.00434},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/73LL8KYW/Güler et al. - 2018 - DensePose Dense Human Pose Estimation In The Wild.pdf;/Users/ben/Zotero/storage/UUDSQF5L/1802.html},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  primaryClass = {cs}
+}
+
+@article{hassibi,
+  title = {Optimal {{Brain Surgeon}}: {{Extensions}} and Performance Comparisons},
+  author = {Hassibi, Babak and Stork, David G and Wolff, Gregory},
+  pages = {8},
+  abstract = {We extend Optimal Brain Surgeon (OBS) - a second-order method for pruning networks - to allow for general error measures, and explore a reduced computational and storage implementation via a dominant eigenspace decomposition. Simulations on nonlinear, noisy pattern classification problems reveal that OBS does lead to improved generalization, and performs favorably in comparison with Optimal Brain Damage (OBD). We find that the required retraining steps in OBD may lead to inferior generalization, a result that can be interpreted as due to injecting noise back into the system. A common technique is to stop training of a large network at the minimum validation error. We found that the test error could be reduced even further by means of OBS (but not OBD) pruning. Our results justify the t \textasciitilde{} 0 approximation used in OBS and indicate why retraining in a highly pruned network may lead to inferior performance.},
+  file = {/Users/ben/Zotero/storage/W2QGFV6Q/Hassibi et al. - Optimal Brain Surgeon Extensions and performance .pdf},
+  langid = {english}
+}
+
+@article{he2014,
+  title = {Spatial {{Pyramid Pooling}} in {{Deep Convolutional Networks}} for {{Visual Recognition}}},
+  author = {He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian},
+  date = {2014},
+  volume = {8691},
+  pages = {346--361},
+  doi = {10.1007/978-3-319-10578-9_23},
+  url = {http://arxiv.org/abs/1406.4729},
+  urldate = {2020-05-31},
+  abstract = {Existing deep convolutional neural networks (CNNs) require a fixed-size (e.g., 224×224) input image. This requirement is “artificial” and may reduce the recognition accuracy for the images or sub-images of an arbitrary size/scale. In this work, we equip the networks with another pooling strategy, “spatial pyramid pooling”, to eliminate the above requirement. The new network structure, called SPP-net, can generate a fixed-length representation regardless of image size/scale. Pyramid pooling is also robust to object deformations. With these advantages, SPP-net should in general improve all CNN-based image classification methods. On the ImageNet 2012 dataset, we demonstrate that SPP-net boosts the accuracy of a variety of CNN architectures despite their different designs. On the Pascal VOC 2007 and Caltech101 datasets, SPP-net achieves state-of-theart classification results using a single full-image representation and no fine-tuning.},
+  archivePrefix = {arXiv},
+  eprint = {1406.4729},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/H968BGCI/He et al. - 2014 - Spatial Pyramid Pooling in Deep Convolutional Netw.pdf},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  langid = {english},
+  primaryClass = {cs}
+}
+
+@article{he2015,
+  title = {Deep {{Residual Learning}} for {{Image Recognition}}},
+  author = {He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian},
+  date = {2015-12-10},
+  url = {http://arxiv.org/abs/1512.03385},
+  urldate = {2020-05-30},
+  abstract = {Deeper neural networks are more difficult to train. We present a residual learning framework to ease the training of networks that are substantially deeper than those used previously. We explicitly reformulate the layers as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions. We provide comprehensive empirical evidence showing that these residual networks are easier to optimize, and can gain accuracy from considerably increased depth. On the ImageNet dataset we evaluate residual nets with a depth of up to 152 layers---8x deeper than VGG nets but still having lower complexity. An ensemble of these residual nets achieves 3.57\% error on the ImageNet test set. This result won the 1st place on the ILSVRC 2015 classification task. We also present analysis on CIFAR-10 with 100 and 1000 layers. The depth of representations is of central importance for many visual recognition tasks. Solely due to our extremely deep representations, we obtain a 28\% relative improvement on the COCO object detection dataset. Deep residual nets are foundations of our submissions to ILSVRC \& COCO 2015 competitions, where we also won the 1st places on the tasks of ImageNet detection, ImageNet localization, COCO detection, and COCO segmentation.},
+  archivePrefix = {arXiv},
+  eprint = {1512.03385},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/SRXSEZZP/He et al. - 2015 - Deep Residual Learning for Image Recognition.pdf;/Users/ben/Zotero/storage/GMHPMCLS/1512.html},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  primaryClass = {cs}
+}
+
+@article{he2018,
+  title = {Mask {{R}}-{{CNN}}},
+  author = {He, Kaiming and Gkioxari, Georgia and Dollár, Piotr and Girshick, Ross},
+  date = {2018-01-24},
+  url = {http://arxiv.org/abs/1703.06870},
+  urldate = {2020-05-31},
+  abstract = {We present a conceptually simple, flexible, and general framework for object instance segmentation. Our approach efficiently detects objects in an image while simultaneously generating a high-quality segmentation mask for each instance. The method, called Mask R-CNN, extends Faster R-CNN by adding a branch for predicting an object mask in parallel with the existing branch for bounding box recognition. Mask R-CNN is simple to train and adds only a small overhead to Faster R-CNN, running at 5 fps. Moreover, Mask R-CNN is easy to generalize to other tasks, e.g., allowing us to estimate human poses in the same framework. We show top results in all three tracks of the COCO suite of challenges, including instance segmentation, boundingbox object detection, and person keypoint detection. Without bells and whistles, Mask R-CNN outperforms all existing, single-model entries on every task, including the COCO 2016 challenge winners. We hope our simple and effective approach will serve as a solid baseline and help ease future research in instance-level recognition. Code has been made available at: https://github.com/ facebookresearch/Detectron.},
+  archivePrefix = {arXiv},
+  eprint = {1703.06870},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/3WPNGATN/He et al. - 2018 - Mask R-CNN.pdf},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  langid = {english},
+  primaryClass = {cs}
+}
+
+@article{he2020,
+  title = {Epipolar {{Transformers}}},
+  author = {He, Yihui and Yan, Rui and Fragkiadaki, Katerina and Yu, Shoou-I.},
+  date = {2020-05-09},
+  url = {http://arxiv.org/abs/2005.04551},
+  urldate = {2020-05-30},
+  abstract = {A common approach to localize 3D human joints in a synchronized and calibrated multi-view setup consists of two-steps: (1) apply a 2D detector separately on each view to localize joints in 2D, and (2) perform robust triangulation on 2D detections from each view to acquire the 3D joint locations. However, in step 1, the 2D detector is limited to solving challenging cases which could potentially be better resolved in 3D, such as occlusions and oblique viewing angles, purely in 2D without leveraging any 3D information. Therefore, we propose the differentiable "epipolar transformer", which enables the 2D detector to leverage 3D-aware features to improve 2D pose estimation. The intuition is: given a 2D location p in the current view, we would like to first find its corresponding point p' in a neighboring view, and then combine the features at p' with the features at p, thus leading to a 3D-aware feature at p. Inspired by stereo matching, the epipolar transformer leverages epipolar constraints and feature matching to approximate the features at p'. Experiments on InterHand and Human3.6M show that our approach has consistent improvements over the baselines. Specifically, in the condition where no external data is used, our Human3.6M model trained with ResNet-50 backbone and image size 256 x 256 outperforms state-of-the-art by 4.23 mm and achieves MPJPE 26.9 mm.},
+  archivePrefix = {arXiv},
+  eprint = {2005.04551},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/3XSDS8YE/He et al. - 2020 - Epipolar Transformers.pdf;/Users/ben/Zotero/storage/2NVB3VEV/2005.html},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  primaryClass = {cs},
+  version = {1}
+}
+
+@article{howard2017,
+  title = {{{MobileNets}}: {{Efficient Convolutional Neural Networks}} for {{Mobile Vision Applications}}},
+  shorttitle = {{{MobileNets}}},
+  author = {Howard, Andrew G. and Zhu, Menglong and Chen, Bo and Kalenichenko, Dmitry and Wang, Weijun and Weyand, Tobias and Andreetto, Marco and Adam, Hartwig},
+  date = {2017-04-16},
+  url = {http://arxiv.org/abs/1704.04861},
+  urldate = {2020-05-31},
+  abstract = {We present a class of efficient models called MobileNets for mobile and embedded vision applications. MobileNets are based on a streamlined architecture that uses depth-wise separable convolutions to build light weight deep neural networks. We introduce two simple global hyper-parameters that efficiently trade off between latency and accuracy. These hyper-parameters allow the model builder to choose the right sized model for their application based on the constraints of the problem. We present extensive experiments on resource and accuracy tradeoffs and show strong performance compared to other popular models on ImageNet classification. We then demonstrate the effectiveness of MobileNets across a wide range of applications and use cases including object detection, finegrain classification, face attributes and large scale geo-localization.},
+  archivePrefix = {arXiv},
+  eprint = {1704.04861},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/B4BART5Q/Howard et al. - 2017 - MobileNets Efficient Convolutional Neural Network.pdf;/Users/ben/Zotero/storage/XSWNGSPM/1704.html},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  primaryClass = {cs}
+}
+
+@article{huang2019,
+  title = {The {{Devil}} Is in the {{Details}}: {{Delving}} into {{Unbiased Data Processing}} for {{Human Pose Estimation}}},
+  shorttitle = {The {{Devil}} Is in the {{Details}}},
+  author = {Huang, Junjie and Zhu, Zheng and Guo, Feng and Huang, Guan},
+  date = {2019-11-18},
+  url = {http://arxiv.org/abs/1911.07524},
+  urldate = {2020-06-02},
+  abstract = {Recently, the leading performance of human pose estimation is dominated by top-down methods. Being a fundamental component in training and inference, data processing has not been systematically considered in pose estimation community, to the best of our knowledge. In this paper, we focus on this problem and find that the devil of top-down pose estimator is in the biased data processing. Specifically, by investigating the standard data processing in state-of-the-art approaches mainly including data transformation and encoding-decoding, we find that the results obtained by common flipping strategy are unaligned with the original ones in inference. Moreover, there is statistical error in standard encoding-decoding during both training and inference. Two problems couple together and significantly degrade the pose estimation performance. Based on quantitative analyses, we then formulate a principled way to tackle this dilemma. Data is processed based on unit length instead of pixel, and an offset-based strategy is adopted to perform encoding-decoding. The Unbiased Data Processing (UDP) for human pose estimation can be achieved by combining the two together. UDP not only boosts the performance of existing methods by a large margin but also plays a important role in result reproducing and future exploration. As a model-agnostic approach, UDP promotes SimpleBaseline-ResNet-50-256x192 by 1.5 AP (70.2 to 71.7) and HRNet-W32-256x192 by 1.7 AP (73.5 to 75.2) on COCO test-dev set. The HRNet-W48-384x288 equipped with UDP achieves 76.5 AP and sets a new state-of-the-art for human pose estimation. The code will be released.},
+  archivePrefix = {arXiv},
+  eprint = {1911.07524},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/A36HN5M8/Huang et al. - 2019 - The Devil is in the Details Delving into Unbiased.pdf;/Users/ben/Zotero/storage/HSV9VKIY/1911.html},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  primaryClass = {cs}
+}
+
+@article{insafutdinov2016,
+  title = {{{DeeperCut}}: {{A Deeper}}, {{Stronger}}, and {{Faster Multi}}-{{Person Pose Estimation Model}}},
+  shorttitle = {{{DeeperCut}}},
+  author = {Insafutdinov, Eldar and Pishchulin, Leonid and Andres, Bjoern and Andriluka, Mykhaylo and Schiele, Bernt},
+  date = {2016-11-30},
+  url = {http://arxiv.org/abs/1605.03170},
+  urldate = {2020-05-29},
+  abstract = {The goal of this paper is to advance the state-of-the-art of articulated pose estimation in scenes with multiple people. To that end we contribute on three fronts. We propose (1) improved body part detectors that generate effective bottom-up proposals for body parts; (2) novel image-conditioned pairwise terms that allow to assemble the proposals into a variable number of consistent body part configurations; and (3) an incremental optimization strategy that explores the search space more efficiently thus leading both to better performance and significant speed-up factors. Evaluation is done on two single-person and two multi-person pose estimation benchmarks. The proposed approach significantly outperforms best known multi-person pose estimation results while demonstrating competitive performance on the task of single person pose estimation1.},
+  archivePrefix = {arXiv},
+  eprint = {1605.03170},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/JUY9CD62/Insafutdinov et al. - 2016 - DeeperCut A Deeper, Stronger, and Faster Multi-Pe.pdf},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  langid = {english},
+  primaryClass = {cs}
+}
+
+@inproceedings{insafutdinov2017,
+  title = {{{ArtTrack}}: {{Articulated Multi}}-{{Person Tracking}} in the {{Wild}}},
+  shorttitle = {{{ArtTrack}}},
+  author = {Insafutdinov, Eldar and Andriluka, Mykhaylo and Pishchulin, Leonid and Tang, Siyu and Levinkov, Evgeny and Andres, Bjoern and Schiele, Bernt},
+  date = {2017},
+  pages = {6457--6465},
+  url = {http://openaccess.thecvf.com/content_cvpr_2017/html/Insafutdinov_ArtTrack_Articulated_Multi-Person_CVPR_2017_paper.html},
+  urldate = {2020-05-31},
+  eventtitle = {Proceedings of the {{IEEE Conference}} on {{Computer Vision}} and {{Pattern Recognition}}},
+  file = {/Users/ben/Zotero/storage/ZFR57P47/Insafutdinov et al. - 2017 - ArtTrack Articulated Multi-Person Tracking in the.pdf;/Users/ben/Zotero/storage/DTKWKHYI/Insafutdinov_ArtTrack_Articulated_Multi-Person_CVPR_2017_paper.html}
+}
+
+@article{ionescu2014,
+  title = {Human3.{{6M}}: {{Large Scale Datasets}} and {{Predictive Methods}} for {{3D Human Sensing}} in {{Natural Environments}}},
+  shorttitle = {Human3.{{6M}}},
+  author = {Ionescu, Catalin and Papava, Dragos and Olaru, Vlad and Sminchisescu, Cristian},
+  date = {2014-07},
+  journaltitle = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  volume = {36},
+  pages = {1325--1339},
+  issn = {1939-3539},
+  doi = {10.1109/TPAMI.2013.248},
+  abstract = {We introduce a new dataset, Human3.6M, of 3.6 Million accurate 3D Human poses, acquired by recording the performance of 5 female and 6 male subjects, under 4 different viewpoints, for training realistic human sensing systems and for evaluating the next generation of human pose estimation models and algorithms. Besides increasing the size of the datasets in the current state-of-the-art by several orders of magnitude, we also aim to complement such datasets with a diverse set of motions and poses encountered as part of typical human activities (taking photos, talking on the phone, posing, greeting, eating, etc.), with additional synchronized image, human motion capture, and time of flight (depth) data, and with accurate 3D body scans of all the subject actors involved. We also provide controlled mixed reality evaluation scenarios where 3D human models are animated using motion capture and inserted using correct 3D geometry, in complex real environments, viewed with moving cameras, and under occlusion. Finally, we provide a set of large-scale statistical models and detailed evaluation baselines for the dataset illustrating its diversity and the scope for improvement by future work in the research community. Our experiments show that our best large-scale model can leverage our full training set to obtain a 20\% improvement in performance compared to a training set of the scale of the largest existing public dataset for this problem. Yet the potential for improvement by leveraging higher capacity, more complex models with our large dataset, is substantially vaster and should stimulate future research. The dataset together with code for the associated large-scale learning models, features, visualization tools, as well as the evaluation server, is available online at http://vision.imar.ro/human3.6m.},
+  eventtitle = {{{IEEE Transactions}} on {{Pattern Analysis}} and {{Machine Intelligence}}},
+  file = {/Users/ben/Zotero/storage/RRJ594HV/6682899.html},
+  keywords = {3D geometry,3D human models,3D human pose estimation,3D human poses,3D human sensing,Algorithms,articulated body modeling,Biometry,Cameras,data visualisation,Databases; Factual,Ecosystem,Estimation,evaluation server,Fourier kernel approximations,human motion capture,human motion capture data,human pose estimation models,Human3.6M,Humans,Image Enhancement,Image Interpretation; Computer-Assisted,image motion analysis,image sensors,Imaging; Three-Dimensional,Information Storage and Retrieval,Joints,large scale datasets,large-scale learning,large-scale learning models,large-scale statistical models,learning (artificial intelligence),Modeling and recovery of physical attributes,Motion,motion capture,moving cameras,natural environments,optimization,Pattern Recognition; Automated,Photography,pose estimation,Posture,predictive methods,realistic human sensing systems,Reproducibility of Results,Sensitivity and Specificity,Sensors,Solid modeling,statistical analysis,structured prediction,Subtraction Technique,synchronized image,Three-dimensional displays,Training,visualization tools,Whole Body Imaging},
+  number = {7}
+}
+
+@article{isack2020,
+  title = {{{RePose}}: {{Learning Deep Kinematic Priors}} for {{Fast Human Pose Estimation}}},
+  shorttitle = {{{RePose}}},
+  author = {Isack, Hossam and Haene, Christian and Keskin, Cem and Bouaziz, Sofien and Boykov, Yuri and Izadi, Shahram and Khamis, Sameh},
+  date = {2020-02-10},
+  url = {http://arxiv.org/abs/2002.03933},
+  urldate = {2020-06-01},
+  abstract = {We propose a novel efficient and lightweight model for human pose estimation from a single image. Our model is designed to achieve competitive results at a fraction of the number of parameters and computational cost of various state-of-the-art methods. To this end, we explicitly incorporate part-based structural and geometric priors in a hierarchical prediction framework. At the coarsest resolution, and in a manner similar to classical part-based approaches, we leverage the kinematic structure of the human body to propagate convolutional feature updates between the keypoints or body parts. Unlike classical approaches, we adopt end-to-end training to learn this geometric prior through feature updates from data. We then propagate the feature representation at the coarsest resolution up the hierarchy to refine the predicted pose in a coarse-to-fine fashion. The final network effectively models the geometric prior and intuition within a lightweight deep neural network, yielding state-of-the-art results for a model of this size on two standard datasets, Leeds Sports Pose and MPII Human Pose.},
+  archivePrefix = {arXiv},
+  eprint = {2002.03933},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/FU6VEX3V/Isack et al. - 2020 - RePose Learning Deep Kinematic Priors for Fast Hu.pdf;/Users/ben/Zotero/storage/3FBASQUI/2002.html},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  primaryClass = {cs}
+}
+
+@article{iskakov2019,
+  title = {Learnable {{Triangulation}} of {{Human Pose}}},
+  author = {Iskakov, Karim and Burkov, Egor and Lempitsky, Victor and Malkov, Yury},
+  date = {2019-05-14},
+  url = {http://arxiv.org/abs/1905.05754},
+  urldate = {2020-05-30},
+  abstract = {We present two novel solutions for multi-view 3D human pose estimation based on new learnable triangulation methods that combine 3D information from multiple 2D views. The first (baseline) solution is a basic differentiable algebraic triangulation with an addition of confidence weights estimated from the input images. The second solution is based on a novel method of volumetric aggregation from intermediate 2D backbone feature maps. The aggregated volume is then refined via 3D convolutions that produce final 3D joint heatmaps and allow modelling a human pose prior. Crucially, both approaches are end-to-end differentiable, which allows us to directly optimize the target metric. We demonstrate transferability of the solutions across datasets and considerably improve the multi-view state of the art on the Human3.6M dataset. Video demonstration, annotations and additional materials will be posted on our project page (https://saic-violet.github.io/learnable-triangulation).},
+  archivePrefix = {arXiv},
+  eprint = {1905.05754},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/J9FM93HK/Iskakov et al. - 2019 - Learnable Triangulation of Human Pose.pdf;/Users/ben/Zotero/storage/E7Q484GH/1905.html},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Computer Vision and Pattern Recognition},
+  primaryClass = {cs},
+  version = {1}
+}
+
+@article{jack2010,
+  title = {Barriers to Treatment Adherence in Physiotherapy Outpatient Clinics: {{A}} Systematic Review},
+  shorttitle = {Barriers to Treatment Adherence in Physiotherapy Outpatient Clinics},
+  author = {Jack, Kirsten and McLean, Sionnadh Mairi and Moffett, Jennifer Klaber and Gardiner, Eric},
+  date = {2010-06},
+  journaltitle = {Manual Therapy},
+  shortjournal = {Man Ther},
+  volume = {15},
+  pages = {220--228},
+  issn = {1356-689X},
+  doi = {10.1016/j.math.2009.12.004},
+  url = {https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2923776/},
+  urldate = {2020-06-01},
+  abstract = {Poor adherence to treatment can have negative effects on outcomes and healthcare cost. However, little is known about the barriers to treatment adherence within physiotherapy. The aim of this systematic review was to identify barriers to treatment adherence in patients typically managed in musculoskeletal physiotherapy outpatient settings and suggest strategies for reducing their impact. The review included twenty high quality studies investigating barriers to treatment adherence in musculoskeletal populations. There was strong evidence that poor treatment adherence was associated with low levels of physical activity at baseline or in previous weeks, low in-treatment adherence with exercise, low self-efficacy, depression, anxiety, helplessness, poor social support/activity, greater perceived number of barriers to exercise and increased pain levels during exercise. Strategies to overcome these barriers and improve adherence are considered. We found limited evidence for many factors and further high quality research is required to investigate the predictive validity of these potential barriers. Much of the available research has focussed on patient factors and additional research is required to investigate the barriers introduced by health professionals or health organisations, since these factors are also likely to influence patient adherence with treatment.},
+  eprint = {20163979},
+  eprinttype = {pmid},
+  file = {/Users/ben/Zotero/storage/A9XHWBHR/Jack et al. - 2010 - Barriers to treatment adherence in physiotherapy o.pdf},
+  number = {3-2},
+  pmcid = {PMC2923776}
+}
+
+@article{jacob2017,
+  ids = {jacob2017a},
+  title = {Quantization and {{Training}} of {{Neural Networks}} for {{Efficient Integer}}-{{Arithmetic}}-{{Only Inference}}},
+  author = {Jacob, Benoit and Kligys, Skirmantas and Chen, Bo and Zhu, Menglong and Tang, Matthew and Howard, Andrew and Adam, Hartwig and Kalenichenko, Dmitry},
+  date = {2017-12-15},
+  url = {http://arxiv.org/abs/1712.05877},
+  urldate = {2020-05-31},
+  abstract = {The rising popularity of intelligent mobile devices and the daunting computational cost of deep learning-based models call for efficient and accurate on-device inference schemes. We propose a quantization scheme that allows inference to be carried out using integer-only arithmetic, which can be implemented more efficiently than floating point inference on commonly available integer-only hardware. We also co-design a training procedure to preserve end-to-end model accuracy post quantization. As a result, the proposed quantization scheme improves the tradeoff between accuracy and on-device latency. The improvements are significant even on MobileNets, a model family known for run-time efficiency, and are demonstrated in ImageNet classification and COCO detection on popular CPUs.},
+  archivePrefix = {arXiv},
+  eprint = {1712.05877},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/4LSCEN68/Jacob et al. - 2017 - Quantization and Training of Neural Networks for E.pdf;/Users/ben/Zotero/storage/SBAGALET/Jacob et al. - 2017 - Quantization and Training of Neural Networks for E.pdf;/Users/ben/Zotero/storage/4KPESEDY/1712.html},
+  keywords = {Computer Science - Machine Learning,Statistics - Machine Learning},
+  primaryClass = {cs, stat}
+}
+
+@inproceedings{jana2012,
+  title = {Memento: {{Learning Secrets}} from {{Process Footprints}}},
+  shorttitle = {Memento},
+  booktitle = {2012 {{IEEE Symposium}} on {{Security}} and {{Privacy}}},
+  author = {Jana, Suman and Shmatikov, Vitaly},
+  date = {2012-05},
+  pages = {143--157},
+  publisher = {{IEEE}},
+  location = {{San Francisco, CA, USA}},
+  doi = {10.1109/SP.2012.19},
+  url = {http://ieeexplore.ieee.org/document/6234410/},
+  urldate = {2020-05-31},
+  abstract = {We describe a new side-channel attack. By tracking changes in the application’s memory footprint, a concurrent process belonging to a different user can learn its secrets. Using Web browsers as the target, we show how an unprivileged, local attack process—for example, a malicious Android app—can infer which page the user is browsing, as well as finer-grained information: whether she is a paid customer, her interests, etc. This attack is an instance of a broader problem. Many isolation mechanisms in modern systems reveal accounting information about program execution, such as memory usage and CPU scheduling statistics. If temporal changes in this public information are correlated with the program’s secrets, they can lead to a privacy breach. To illustrate the pervasiveness of this problem, we show how to exploit scheduling statistics for keystroke sniffing in Linux and Android, and how to combine scheduling statistics with the dynamics of memory usage for more accurate adversarial inference of browsing behavior.},
+  eventtitle = {2012 {{IEEE Symposium}} on {{Security}} and {{Privacy}} ({{SP}}) {{Conference}} Dates Subject to Change},
+  file = {/Users/ben/Zotero/storage/E5HJX9CK/Jana and Shmatikov - 2012 - Memento Learning Secrets from Process Footprints.pdf},
+  isbn = {978-1-4673-1244-8 978-0-7695-4681-0},
+  langid = {english}
+}
+
+@article{kanazawa2019,
+  title = {Learning {{3D Human Dynamics}} from {{Video}}},
+  author = {Kanazawa, Angjoo and Zhang, Jason Y. and Felsen, Panna and Malik, Jitendra},
+  date = {2019-09-16},
+  url = {http://arxiv.org/abs/1812.01601},
+  urldate = {2020-05-30},
+  abstract = {From an image of a person in action, we can easily guess the 3D motion of the person in the immediate past and future. This is because we have a mental model of 3D human dynamics that we have acquired from observing visual sequences of humans in motion. We present a framework that can similarly learn a representation of 3D dynamics of humans from video via a simple but effective temporal encoding of image features. At test time, from video, the learned temporal representation give rise to smooth 3D mesh predictions. From a single image, our model can recover the current 3D mesh as well as its 3D past and future motion. Our approach is designed so it can learn from videos with 2D pose annotations in a semi-supervised manner. Though annotated data is always limited, there are millions of videos uploaded daily on the Internet. In this work, we harvest this Internet-scale source of unlabeled data by training our model on unlabeled video with pseudo-ground truth 2D pose obtained from an off-the-shelf 2D pose detector. Our experiments show that adding more videos with pseudo-ground truth 2D pose monotonically improves 3D prediction performance. We evaluate our model, Human Mesh and Motion Recovery (HMMR), on the recent challenging dataset of 3D Poses in the Wild and obtain state-of-the-art performance on the 3D prediction task without any fine-tuning. The project website with video, code, and data can be found at https://akanazawa.github.io/human\_dynamics/.},
+  archivePrefix = {arXiv},
+  eprint = {1812.01601},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/E6WVWRZ9/Kanazawa et al. - 2019 - Learning 3D Human Dynamics from Video.pdf;/Users/ben/Zotero/storage/NN46R3S9/1812.html},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  primaryClass = {cs}
+}
+
+@article{kay2017,
+  title = {The {{Kinetics Human Action Video Dataset}}},
+  author = {Kay, Will and Carreira, Joao and Simonyan, Karen and Zhang, Brian and Hillier, Chloe and Vijayanarasimhan, Sudheendra and Viola, Fabio and Green, Tim and Back, Trevor and Natsev, Paul and Suleyman, Mustafa and Zisserman, Andrew},
+  date = {2017-05-19},
+  url = {http://arxiv.org/abs/1705.06950},
+  urldate = {2020-05-31},
+  abstract = {We describe the DeepMind Kinetics human action video dataset. The dataset contains 400 human action classes, with at least 400 video clips for each action. Each clip lasts around 10s and is taken from a different YouTube video. The actions are human focussed and cover a broad range of classes including human-object interactions such as playing instruments, as well as human-human interactions such as shaking hands. We describe the statistics of the dataset, how it was collected, and give some baseline performance figures for neural network architectures trained and tested for human action classification on this dataset. We also carry out a preliminary analysis of whether imbalance in the dataset leads to bias in the classifiers.},
+  archivePrefix = {arXiv},
+  eprint = {1705.06950},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/PAIUVZ7L/Kay et al. - 2017 - The Kinetics Human Action Video Dataset.pdf;/Users/ben/Zotero/storage/QNIKEQBX/1705.html},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  primaryClass = {cs}
+}
+
+@inproceedings{kendall2015,
+  title = {{{PoseNet}}: {{A Convolutional Network}} for {{Real}}-{{Time}} 6-{{DOF Camera Relocalization}}},
+  shorttitle = {{{PoseNet}}},
+  booktitle = {2015 {{IEEE International Conference}} on {{Computer Vision}} ({{ICCV}})},
+  author = {Kendall, Alex and Grimes, Matthew and Cipolla, Roberto},
+  date = {2015-12},
+  pages = {2938--2946},
+  publisher = {{IEEE}},
+  location = {{Santiago, Chile}},
+  doi = {10.1109/ICCV.2015.336},
+  url = {http://ieeexplore.ieee.org/document/7410693/},
+  urldate = {2020-06-02},
+  eventtitle = {2015 {{IEEE International Conference}} on {{Computer Vision}} ({{ICCV}})},
+  file = {/Users/ben/Zotero/storage/KQUPWGBH/Kendall et al. - 2015 - PoseNet A Convolutional Network for Real-Time 6-D.pdf},
+  isbn = {978-1-4673-8391-2},
+  langid = {english}
+}
+
+@inproceedings{kocabas2018,
+  title = {{{MultiPoseNet}}: {{Fast Multi}}-{{Person Pose Estimation}} Using {{Pose Residual Network}}},
+  shorttitle = {{{MultiPoseNet}}},
+  author = {Kocabas, Muhammed and Karagoz, Salih and Akbas, Emre},
+  date = {2018},
+  pages = {417--433},
+  url = {http://openaccess.thecvf.com/content_ECCV_2018/html/Muhammed_Kocabas_MultiPoseNet_Fast_Multi-Person_ECCV_2018_paper.html},
+  urldate = {2020-05-29},
+  eventtitle = {Proceedings of the {{European Conference}} on {{Computer Vision}} ({{ECCV}})},
+  file = {/Users/ben/Zotero/storage/5AQDKUN2/Kocabas et al. - 2018 - MultiPoseNet Fast Multi-Person Pose Estimation us.pdf;/Users/ben/Zotero/storage/WANQDXHN/Kocabas et al. - 2018 - MultiPoseNet Fast Multi-Person Pose Estimation us.pdf;/Users/ben/Zotero/storage/8PGKI8AM/Muhammed_Kocabas_MultiPoseNet_Fast_Multi-Person_ECCV_2018_paper.html},
+  keywords = {performance}
+}
+
+@inproceedings{kolotouros2019,
+  title = {Convolutional {{Mesh Regression}} for {{Single}}-{{Image Human Shape Reconstruction}}},
+  booktitle = {2019 {{IEEE}}/{{CVF Conference}} on {{Computer Vision}} and {{Pattern Recognition}} ({{CVPR}})},
+  author = {Kolotouros, Nikos and Pavlakos, Georgios and Daniilidis, Kostas},
+  date = {2019-06},
+  pages = {4496--4505},
+  publisher = {{IEEE}},
+  location = {{Long Beach, CA, USA}},
+  doi = {10.1109/CVPR.2019.00463},
+  url = {https://ieeexplore.ieee.org/document/8954325/},
+  urldate = {2020-05-28},
+  eventtitle = {2019 {{IEEE}}/{{CVF Conference}} on {{Computer Vision}} and {{Pattern Recognition}} ({{CVPR}})},
+  file = {/Users/ben/Zotero/storage/P4FUEEM6/Kolotouros et al. - 2019 - Convolutional Mesh Regression for Single-Image Hum.pdf},
+  isbn = {978-1-72813-293-8},
+  langid = {english}
+}
+
+@incollection{krizhevsky2012,
+  title = {{{ImageNet Classification}} with {{Deep Convolutional Neural Networks}}},
+  booktitle = {Advances in {{Neural Information Processing Systems}} 25},
+  author = {Krizhevsky, Alex and Sutskever, Ilya and Hinton, Geoffrey E},
+  editor = {Pereira, F. and Burges, C. J. C. and Bottou, L. and Weinberger, K. Q.},
+  date = {2012},
+  pages = {1097--1105},
+  publisher = {{Curran Associates, Inc.}},
+  url = {http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf},
+  urldate = {2020-05-30},
+  file = {/Users/ben/Zotero/storage/ZAWNJN9U/Krizhevsky et al. - 2012 - ImageNet Classification with Deep Convolutional Ne.pdf;/Users/ben/Zotero/storage/LNWPHBVZ/4824-imagenet-classification-with-deep-convolutional-neural-networks.html}
+}
+
+@article{krizhevsky2017,
+  title = {{{ImageNet}} Classification with Deep Convolutional Neural Networks},
+  author = {Krizhevsky, Alex and Sutskever, Ilya and Hinton, Geoffrey E.},
+  date = {2017-05-24},
+  journaltitle = {Communications of the ACM},
+  shortjournal = {Commun. ACM},
+  volume = {60},
+  pages = {84--90},
+  issn = {0001-0782},
+  doi = {10.1145/3065386},
+  url = {https://doi.org/10.1145/3065386},
+  urldate = {2020-05-30},
+  abstract = {We trained a large, deep convolutional neural network to classify the 1.2 million high-resolution images in the ImageNet LSVRC-2010 contest into the 1000 different classes. On the test data, we achieved top-1 and top-5 error rates of 37.5\% and 17.0\%, respectively, which is considerably better than the previous state-of-the-art. The neural network, which has 60 million parameters and 650,000 neurons, consists of five convolutional layers, some of which are followed by max-pooling layers, and three fully connected layers with a final 1000-way softmax. To make training faster, we used non-saturating neurons and a very efficient GPU implementation of the convolution operation. To reduce overfitting in the fully connected layers we employed a recently developed regularization method called "dropout" that proved to be very effective. We also entered a variant of this model in the ILSVRC-2012 competition and achieved a winning top-5 test error rate of 15.3\%, compared to 26.2\% achieved by the second-best entry.},
+  file = {/Users/ben/Zotero/storage/H8LRTBRN/Krizhevsky et al. - 2017 - ImageNet classification with deep convolutional ne.pdf},
+  number = {6}
+}
+
+@article{kumar,
+  title = {Resource-Efficient {{Machine Learning}} in 2 {{KB RAM}} for the {{Internet}} of {{Things}}},
+  author = {Kumar, Ashish and Goyal, Saurabh and Varma, Manik},
+  pages = {10},
+  abstract = {This paper develops a novel tree-based algorithm, called Bonsai, for efficient prediction on IoT devices – such as those based on the Arduino Uno board having an 8 bit ATmega328P microcontroller operating at 16 MHz with no native floating point support, 2 KB RAM and 32 KB read-only flash. Bonsai maintains prediction accuracy while minimizing model size and prediction costs by: (a) developing a tree model which learns a single, shallow, sparse tree with powerful nodes; (b) sparsely projecting all data into a low-dimensional space in which the tree is learnt; and (c) jointly learning all tree and projection parameters. Experimental results on multiple benchmark datasets demonstrate that Bonsai can make predictions in milliseconds even on slow microcontrollers, can fit in KB of memory, has lower battery consumption than all other algorithms while achieving prediction accuracies that can be as much as 30\% higher than stateof-the-art methods for resource-efficient machine learning. Bonsai is also shown to generalize to other resource constrained settings beyond IoT by generating significantly better search results as compared to Bing’s L3 ranker when the model size is restricted to 300 bytes. Bonsai’s code can be downloaded from (BonsaiCode).},
+  file = {/Users/ben/Zotero/storage/C4X6ACYT/Kumar et al. - Resource-efficient Machine Learning in 2 KB RAM fo.pdf},
+  langid = {english}
+}
+
+@article{lecun,
+  title = {Optimal {{Brain Damage}}},
+  author = {LeCun, Yann and Denker, John S and Solla, Sara A},
+  pages = {8},
+  abstract = {We have used information-theoretic ideas to derive a class of practical and nearly optimal schemes for adapting the size of a neural network. By removing unimportant weights from a network, several improvements can be expected: better generalization, fewer training examples required, and improved speed of learning and/or classification. The basic idea is to use second-derivative information to make a tradeoff between network complexity and training set error. Experiments confirm the usefulness of the methods on a real-world application.},
+  file = {/Users/ben/Zotero/storage/UMJZCQ63/LeCun et al. - Optimal Brain Damage.pdf},
+  langid = {english}
+}
+
+@article{li2017,
+  title = {Fully {{Convolutional Instance}}-Aware {{Semantic Segmentation}}},
+  author = {Li, Yi and Qi, Haozhi and Dai, Jifeng and Ji, Xiangyang and Wei, Yichen},
+  date = {2017-04-10},
+  url = {http://arxiv.org/abs/1611.07709},
+  urldate = {2020-05-31},
+  abstract = {We present the first fully convolutional end-to-end solution for instance-aware semantic segmentation task. It inherits all the merits of FCNs for semantic segmentation [29] and instance mask proposal [5]. It detects and segments the object instances jointly and simultanoulsy. By the introduction of position-senstive inside/outside score maps, the underlying convolutional representation is fully shared between the two sub-tasks, as well as between all regions of interest. The proposed network is highly integrated and achieves state-of-the-art performance in both accuracy and efficiency. It wins the COCO 2016 segmentation competition by a large margin. Code would be released at https: //github.com/daijifeng001/TA-FCN .},
+  archivePrefix = {arXiv},
+  eprint = {1611.07709},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/ST4Y7DSM/Li et al. - 2017 - Fully Convolutional Instance-aware Semantic Segmen.pdf},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  langid = {english},
+  primaryClass = {cs}
+}
+
+@article{lin2015,
+  title = {Microsoft {{COCO}}: {{Common Objects}} in {{Context}}},
+  shorttitle = {Microsoft {{COCO}}},
+  author = {Lin, Tsung-Yi and Maire, Michael and Belongie, Serge and Bourdev, Lubomir and Girshick, Ross and Hays, James and Perona, Pietro and Ramanan, Deva and Zitnick, C. Lawrence and Dollár, Piotr},
+  date = {2015-02-20},
+  url = {http://arxiv.org/abs/1405.0312},
+  urldate = {2020-05-31},
+  abstract = {We present a new dataset with the goal of advancing the state-of-the-art in object recognition by placing the question of object recognition in the context of the broader question of scene understanding. This is achieved by gathering images of complex everyday scenes containing common objects in their natural context. Objects are labeled using per-instance segmentations to aid in precise object localization. Our dataset contains photos of 91 objects types that would be easily recognizable by a 4 year old. With a total of 2.5 million labeled instances in 328k images, the creation of our dataset drew upon extensive crowd worker involvement via novel user interfaces for category detection, instance spotting and instance segmentation. We present a detailed statistical analysis of the dataset in comparison to PASCAL, ImageNet, and SUN. Finally, we provide baseline performance analysis for bounding box and segmentation detection results using a Deformable Parts Model.},
+  archivePrefix = {arXiv},
+  eprint = {1405.0312},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/P8CKUCUJ/Lin et al. - 2015 - Microsoft COCO Common Objects in Context.pdf;/Users/ben/Zotero/storage/YTTZN7VT/1405.html},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  primaryClass = {cs}
+}
+
+@article{lin2018,
+  title = {Focal {{Loss}} for {{Dense Object Detection}}},
+  author = {Lin, Tsung-Yi and Goyal, Priya and Girshick, Ross and He, Kaiming and Dollár, Piotr},
+  date = {2018-02-07},
+  url = {http://arxiv.org/abs/1708.02002},
+  urldate = {2020-05-31},
+  abstract = {The highest accuracy object detectors to date are based on a two-stage approach popularized by R-CNN, where a classifier is applied to a sparse set of candidate object locations. In contrast, one-stage detectors that are applied over a regular, dense sampling of possible object locations have the potential to be faster and simpler, but have trailed the accuracy of two-stage detectors thus far. In this paper, we investigate why this is the case. We discover that the extreme foreground-background class imbalance encountered during training of dense detectors is the central cause. We propose to address this class imbalance by reshaping the standard cross entropy loss such that it down-weights the loss assigned to well-classified examples. Our novel Focal Loss focuses training on a sparse set of hard examples and prevents the vast number of easy negatives from overwhelming the detector during training. To evaluate the effectiveness of our loss, we design and train a simple dense detector we call RetinaNet. Our results show that when trained with the focal loss, RetinaNet is able to match the speed of previous one-stage detectors while surpassing the accuracy of all existing state-of-the-art two-stage detectors. Code is at: https://github.com/facebookresearch/Detectron.},
+  archivePrefix = {arXiv},
+  eprint = {1708.02002},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/2BM7HMX6/Lin et al. - 2018 - Focal Loss for Dense Object Detection.pdf},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  langid = {english},
+  primaryClass = {cs}
+}
+
+@article{liu,
+  title = {Attention {{Mechanism Exploits Temporal Contexts}}: {{Real}}-Time {{3D Human Pose Reconstruction}}},
+  author = {Liu, Ruixu and Shen, Ju and Wang, He and Chen, Chen and Cheung, Sen-ching and Asari, Vijayan},
+  pages = {10},
+  file = {/Users/ben/Zotero/storage/ZJ9WBL3J/Liu et al. - Attention Mechanism Exploits Temporal Contexts Re.pdf},
+  langid = {english}
+}
+
+@article{liu2016,
+  title = {{{SSD}}: {{Single Shot MultiBox Detector}}},
+  shorttitle = {{{SSD}}},
+  author = {Liu, Wei and Anguelov, Dragomir and Erhan, Dumitru and Szegedy, Christian and Reed, Scott and Fu, Cheng-Yang and Berg, Alexander C.},
+  date = {2016},
+  volume = {9905},
+  pages = {21--37},
+  doi = {10.1007/978-3-319-46448-0_2},
+  url = {http://arxiv.org/abs/1512.02325},
+  urldate = {2020-06-02},
+  abstract = {We present a method for detecting objects in images using a single deep neural network. Our approach, named SSD, discretizes the output space of bounding boxes into a set of default boxes over different aspect ratios and scales per feature map location. At prediction time, the network generates scores for the presence of each object category in each default box and produces adjustments to the box to better match the object shape. Additionally, the network combines predictions from multiple feature maps with different resolutions to naturally handle objects of various sizes. Our SSD model is simple relative to methods that require object proposals because it completely eliminates proposal generation and subsequent pixel or feature resampling stage and encapsulates all computation in a single network. This makes SSD easy to train and straightforward to integrate into systems that require a detection component. Experimental results on the PASCAL VOC, MS COCO, and ILSVRC datasets confirm that SSD has comparable accuracy to methods that utilize an additional object proposal step and is much faster, while providing a unified framework for both training and inference. Compared to other single stage methods, SSD has much better accuracy, even with a smaller input image size. For \$300\textbackslash times 300\$ input, SSD achieves 72.1\% mAP on VOC2007 test at 58 FPS on a Nvidia Titan X and for \$500\textbackslash times 500\$ input, SSD achieves 75.1\% mAP, outperforming a comparable state of the art Faster R-CNN model. Code is available at https://github.com/weiliu89/caffe/tree/ssd .},
+  archivePrefix = {arXiv},
+  eprint = {1512.02325},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/C4IC5JZR/Liu et al. - 2016 - SSD Single Shot MultiBox Detector.pdf;/Users/ben/Zotero/storage/GIESWHLK/1512.html},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  primaryClass = {cs}
+}
+
+@article{long,
+  title = {Fully {{Convolutional Networks}} for {{Semantic Segmentation}}},
+  author = {Long, Jonathan and Shelhamer, Evan and Darrell, Trevor},
+  pages = {10},
+  abstract = {Convolutional networks are powerful visual models that yield hierarchies of features. We show that convolutional networks by themselves, trained end-to-end, pixelsto-pixels, exceed the state-of-the-art in semantic segmentation. Our key insight is to build “fully convolutional” networks that take input of arbitrary size and produce correspondingly-sized output with efficient inference and learning. We define and detail the space of fully convolutional networks, explain their application to spatially dense prediction tasks, and draw connections to prior models. We adapt contemporary classification networks (AlexNet [20], the VGG net [31], and GoogLeNet [32]) into fully convolutional networks and transfer their learned representations by fine-tuning [3] to the segmentation task. We then define a skip architecture that combines semantic information from a deep, coarse layer with appearance information from a shallow, fine layer to produce accurate and detailed segmentations. Our fully convolutional network achieves stateof-the-art segmentation of PASCAL VOC (20\% relative improvement to 62.2\% mean IU on 2012), NYUDv2, and SIFT Flow, while inference takes less than one fifth of a second for a typical image.},
+  file = {/Users/ben/Zotero/storage/YXL6V3KJ/Long et al. - Fully Convolutional Networks for Semantic Segmenta.pdf},
+  langid = {english}
+}
+
+@article{lonsdale2012,
+  title = {Communication Style and Exercise Compliance in Physiotherapy ({{CONNECT}}). {{A}} Cluster Randomized Controlled Trial to Test a Theory-Based Intervention to Increase Chronic Low Back Pain Patients’ Adherence to Physiotherapists’ Recommendations: Study Rationale, Design, and Methods},
+  shorttitle = {Communication Style and Exercise Compliance in Physiotherapy ({{CONNECT}}). {{A}} Cluster Randomized Controlled Trial to Test a Theory-Based Intervention to Increase Chronic Low Back Pain Patients’ Adherence to Physiotherapists’ Recommendations},
+  author = {Lonsdale, Chris and Hall, Amanda M and Williams, Geoffrey C and McDonough, Suzanne M and Ntoumanis, Nikos and Murray, Aileen and Hurley, Deirdre A},
+  date = {2012-12},
+  journaltitle = {BMC Musculoskeletal Disorders},
+  shortjournal = {BMC Musculoskelet Disord},
+  volume = {13},
+  pages = {104},
+  issn = {1471-2474},
+  doi = {10.1186/1471-2474-13-104},
+  url = {http://bmcmusculoskeletdisord.biomedcentral.com/articles/10.1186/1471-2474-13-104},
+  urldate = {2020-06-01},
+  abstract = {Background: Physical activity and exercise therapy are among the accepted clinical rehabilitation guidelines and are recommended self-management strategies for chronic low back pain. However, many back pain sufferers do not adhere to their physiotherapist’s recommendations. Poor patient adherence may decrease the effectiveness of advice and home-based rehabilitation exercises. According to self-determination theory, support from health care practitioners can promote patients’ autonomous motivation and greater long-term behavioral persistence (e.g., adherence to physiotherapists’ recommendations). The aim of this trial is to assess the effect of an intervention designed to increase physiotherapists’ autonomy-supportive communication on low back pain patients’ adherence to physical activity and exercise therapy recommendations. Methods/Design: This study will be a single-blinded cluster randomized controlled trial. Outpatient physiotherapy centers (N =12) in Dublin, Ireland (population = 1.25 million) will be randomly assigned using a computer-generated algorithm to either the experimental or control arm. Physiotherapists in the experimental arm (two hospitals and four primary care clinics) will attend eight hours of communication skills training. Training will include handouts, workbooks, video examples, role-play, and discussion designed to teach physiotherapists how to communicate in a manner that promotes autonomous patient motivation. Physiotherapists in the waitlist control arm (two hospitals and four primary care clinics) will not receive this training. Participants (N = 292) with chronic low back pain will complete assessments at baseline, as well as 1 week, 4 weeks, 12 weeks, and 24 weeks after their first physiotherapy appointment. Primary outcomes will include adherence to physiotherapy recommendations, as well as low back pain, function, and well-being. Participants will be blinded to treatment allocation, as they will not be told if their physiotherapist has received the communication skills training. Outcome assessors will also be blinded. We will use linear mixed modeling to test between arm differences both in the mean levels and the rates of change of the outcome variables. We will employ structural equation modeling to examine the process of change, including hypothesized mediation effects.},
+  file = {/Users/ben/Zotero/storage/RSNSS4VH/Lonsdale et al. - 2012 - Communication style and exercise compliance in phy.pdf},
+  langid = {english},
+  number = {1}
+}
+
+@article{loper2015,
+  title = {{{SMPL}}: A Skinned Multi-Person Linear Model},
+  shorttitle = {{{SMPL}}},
+  author = {Loper, Matthew and Mahmood, Naureen and Romero, Javier and Pons-Moll, Gerard and Black, Michael J.},
+  date = {2015-10-26},
+  journaltitle = {ACM Transactions on Graphics},
+  shortjournal = {ACM Trans. Graph.},
+  volume = {34},
+  pages = {248:1--248:16},
+  issn = {0730-0301},
+  doi = {10.1145/2816795.2818013},
+  url = {https://doi.org/10.1145/2816795.2818013},
+  urldate = {2020-06-02},
+  abstract = {We present a learned model of human body shape and pose-dependent shape variation that is more accurate than previous models and is compatible with existing graphics pipelines. Our Skinned Multi-Person Linear model (SMPL) is a skinned vertex-based model that accurately represents a wide variety of body shapes in natural human poses. The parameters of the model are learned from data including the rest pose template, blend weights, pose-dependent blend shapes, identity-dependent blend shapes, and a regressor from vertices to joint locations. Unlike previous models, the pose-dependent blend shapes are a linear function of the elements of the pose rotation matrices. This simple formulation enables training the entire model from a relatively large number of aligned 3D meshes of different people in different poses. We quantitatively evaluate variants of SMPL using linear or dual-quaternion blend skinning and show that both are more accurate than a Blend-SCAPE model trained on the same data. We also extend SMPL to realistically model dynamic soft-tissue deformations. Because it is based on blend skinning, SMPL is compatible with existing rendering engines and we make it available for research purposes.},
+  file = {/Users/ben/Zotero/storage/T26AXADP/Loper et al. - 2015 - SMPL a skinned multi-person linear model.pdf},
+  keywords = {blendshapes,body shape,skinning,soft-tissue},
+  number = {6}
+}
+
+@article{lugaresi2019,
+  title = {{{MediaPipe}}: {{A Framework}} for {{Building Perception Pipelines}}},
+  shorttitle = {{{MediaPipe}}},
+  author = {Lugaresi, Camillo and Tang, Jiuqiang and Nash, Hadon and McClanahan, Chris and Uboweja, Esha and Hays, Michael and Zhang, Fan and Chang, Chuo-Ling and Yong, Ming Guang and Lee, Juhyun and Chang, Wan-Teh and Hua, Wei and Georg, Manfred and Grundmann, Matthias},
+  date = {2019-06-14},
+  url = {http://arxiv.org/abs/1906.08172},
+  urldate = {2020-06-02},
+  abstract = {Building applications that perceive the world around them is challenging. A developer needs to (a) select and develop corresponding machine learning algorithms and models, (b) build a series of prototypes and demos, (c) balance resource consumption against the quality of the solutions, and finally (d) identify and mitigate problematic cases. The MediaPipe framework addresses all of these challenges. A developer can use MediaPipe to build prototypes by combining existing perception components, to advance them to polished cross-platform applications and measure system performance and resource consumption on target platforms. We show that these features enable a developer to focus on the algorithm or model development and use MediaPipe as an environment for iteratively improving their application with results reproducible across different devices and platforms. MediaPipe will be open-sourced at https://github.com/google/mediapipe.},
+  archivePrefix = {arXiv},
+  eprint = {1906.08172},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/55FNRVLY/Lugaresi et al. - 2019 - MediaPipe A Framework for Building Perception Pip.pdf;/Users/ben/Zotero/storage/ADE2KF9K/1906.html},
+  keywords = {Computer Science - Distributed; Parallel; and Cluster Computing},
+  primaryClass = {cs}
+}
+
+@article{marchand2016,
+  title = {Pose {{Estimation}} for {{Augmented Reality}}: {{A Hands}}-{{On Survey}}},
+  shorttitle = {Pose {{Estimation}} for {{Augmented Reality}}},
+  author = {Marchand, Eric and Uchiyama, Hideaki and Spindler, Fabien},
+  date = {2016-12-01},
+  journaltitle = {IEEE Transactions on Visualization and Computer Graphics},
+  shortjournal = {IEEE Trans. Visual. Comput. Graphics},
+  volume = {22},
+  pages = {2633--2651},
+  issn = {1077-2626},
+  doi = {10.1109/TVCG.2015.2513408},
+  url = {http://ieeexplore.ieee.org/document/7368948/},
+  urldate = {2020-06-05},
+  abstract = {Augmented reality (AR) allows to seamlessly insert virtual objects in an image sequence. In order to accomplish this goal, it is important that synthetic elements are rendered and aligned in the scene in an accurate and visually acceptable way. The solution of this problem can be related to a pose estimation or, equivalently, a camera localization process. This paper aims at presenting a brief but almost self-contented introduction to the most important approaches dedicated to vision-based camera localization along with a survey of several extension proposed in the recent years. For most of the presented approaches, we also provide links to code of short examples. This should allow readers to easily bridge the gap between theoretical aspects and practical implementations.},
+  file = {/Users/ben/Zotero/storage/5K8H2LYX/Marchand et al. - 2016 - Pose Estimation for Augmented Reality A Hands-On .pdf},
+  langid = {english},
+  number = {12}
+}
+
+@article{martinez2017,
+  title = {A Simple yet Effective Baseline for 3d Human Pose Estimation},
+  author = {Martinez, Julieta and Hossain, Rayat and Romero, Javier and Little, James J.},
+  date = {2017-08-04},
+  url = {http://arxiv.org/abs/1705.03098},
+  urldate = {2020-06-03},
+  abstract = {Following the success of deep convolutional networks, state-of-the-art methods for 3d human pose estimation have focused on deep end-to-end systems that predict 3d joint locations given raw image pixels. Despite their excellent performance, it is often not easy to understand whether their remaining error stems from a limited 2d pose (visual) understanding, or from a failure to map 2d poses into 3-dimensional positions. With the goal of understanding these sources of error, we set out to build a system that given 2d joint locations predicts 3d positions. Much to our surprise, we have found that, with current technology, "lifting" ground truth 2d joint locations to 3d space is a task that can be solved with a remarkably low error rate: a relatively simple deep feed-forward network outperforms the best reported result by about 30\textbackslash\% on Human3.6M, the largest publicly available 3d pose estimation benchmark. Furthermore, training our system on the output of an off-the-shelf state-of-the-art 2d detector (\textbackslash ie, using images as input) yields state of the art results -- this includes an array of systems that have been trained end-to-end specifically for this task. Our results indicate that a large portion of the error of modern deep 3d pose estimation systems stems from their visual analysis, and suggests directions to further advance the state of the art in 3d human pose estimation.},
+  archivePrefix = {arXiv},
+  eprint = {1705.03098},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/4T9YGQER/Martinez et al. - 2017 - A simple yet effective baseline for 3d human pose .pdf;/Users/ben/Zotero/storage/PPGS8W3D/1705.html},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  primaryClass = {cs}
+}
+
+@article{mehta2017,
+  title = {{{VNect}}: Real-Time {{3D}} Human Pose Estimation with a Single {{RGB}} Camera},
+  shorttitle = {{{VNect}}},
+  author = {Mehta, Dushyant and Sridhar, Srinath and Sotnychenko, Oleksandr and Rhodin, Helge and Shafiei, Mohammad and Seidel, Hans-Peter and Xu, Weipeng and Casas, Dan and Theobalt, Christian},
+  date = {2017-07-20},
+  journaltitle = {ACM Transactions on Graphics},
+  shortjournal = {ACM Trans. Graph.},
+  volume = {36},
+  pages = {44:1--44:14},
+  issn = {0730-0301},
+  doi = {10.1145/3072959.3073596},
+  url = {https://doi.org/10.1145/3072959.3073596},
+  urldate = {2020-05-30},
+  abstract = {We present the first real-time method to capture the full global 3D skeletal pose of a human in a stable, temporally consistent manner using a single RGB camera. Our method combines a new convolutional neural network (CNN) based pose regressor with kinematic skeleton fitting. Our novel fully-convolutional pose formulation regresses 2D and 3D joint positions jointly in real time and does not require tightly cropped input frames. A real-time kinematic skeleton fitting method uses the CNN output to yield temporally stable 3D global pose reconstructions on the basis of a coherent kinematic skeleton. This makes our approach the first monocular RGB method usable in real-time applications such as 3D character control---thus far, the only monocular methods for such applications employed specialized RGB-D cameras. Our method's accuracy is quantitatively on par with the best offline 3D monocular RGB pose estimation methods. Our results are qualitatively comparable to, and sometimes better than, results from monocular RGB-D approaches, such as the Kinect. However, we show that our approach is more broadly applicable than RGB-D solutions, i.e., it works for outdoor scenes, community videos, and low quality commodity RGB cameras.},
+  file = {/Users/ben/Zotero/storage/D5JGYWHB/Mehta et al. - 2017 - VNect real-time 3D human pose estimation with a s.pdf},
+  keywords = {body pose,monocular,real time},
+  number = {4}
+}
+
+@article{melis2018,
+  title = {Exploiting {{Unintended Feature Leakage}} in {{Collaborative Learning}}},
+  author = {Melis, Luca and Song, Congzheng and De Cristofaro, Emiliano and Shmatikov, Vitaly},
+  date = {2018-11-01},
+  url = {http://arxiv.org/abs/1805.04049},
+  urldate = {2020-05-31},
+  abstract = {Collaborative machine learning and related techniques such as federated learning allow multiple participants, each with his own training dataset, to build a joint model by training locally and periodically exchanging model updates. We demonstrate that these updates leak unintended information about participants’ training data and develop passive and active inference attacks to exploit this leakage. First, we show that an adversarial participant can infer the presence of exact data points—for example, specific locations—in others’ training data (i.e., membership inference). Then, we show how this adversary can infer properties that hold only for a subset of the training data and are independent of the properties that the joint model aims to capture. For example, he can infer when a specific person first appears in the photos used to train a binary gender classifier. We evaluate our attacks on a variety of tasks, datasets, and learning configurations, analyze their limitations, and discuss possible defenses.},
+  archivePrefix = {arXiv},
+  eprint = {1805.04049},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/DLHM7MQF/Melis et al. - 2018 - Exploiting Unintended Feature Leakage in Collabora.pdf},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Cryptography and Security},
+  langid = {english},
+  primaryClass = {cs}
+}
+
+@article{moeslund2001,
+  title = {A {{Survey}} of {{Computer Vision}}-{{Based Human Motion Capture}}},
+  author = {Moeslund, Thomas B. and Granum, Erik},
+  date = {2001-03-01},
+  journaltitle = {Computer Vision and Image Understanding},
+  shortjournal = {Computer Vision and Image Understanding},
+  volume = {81},
+  pages = {231--268},
+  issn = {1077-3142},
+  doi = {10.1006/cviu.2000.0897},
+  url = {http://www.sciencedirect.com/science/article/pii/S107731420090897X},
+  urldate = {2020-06-02},
+  abstract = {A comprehensive survey of computer vision-based human motion capture literature from the past two decades is presented. The focus is on a general overview based on a taxonomy of system functionalities, broken down into four processes: initialization, tracking, pose estimation, and recognition. Each process is discussed and divided into subprocesses and/or categories of methods to provide a reference to describe and compare the more than 130 publications covered by the survey. References are included throughout the paper to exemplify important issues and their relations to the various methods. A number of general assumptions used in this research field are identified and the character of these assumptions indicates that the research field is still in an early stage of development. To evaluate the state of the art, the major application areas are identified and performances are analyzed in light of the methods presented in the survey. Finally, suggestions for future research directions are offered.},
+  file = {/Users/ben/Zotero/storage/AWHEWXM6/Moeslund and Granum - 2001 - A Survey of Computer Vision-Based Human Motion Cap.pdf;/Users/ben/Zotero/storage/UDPJEW2R/S107731420090897X.html},
+  langid = {english},
+  number = {3}
+}
+
+@article{newell2016,
+  title = {Stacked {{Hourglass Networks}} for {{Human Pose Estimation}}},
+  author = {Newell, Alejandro and Yang, Kaiyu and Deng, Jia},
+  date = {2016-07-26},
+  url = {http://arxiv.org/abs/1603.06937},
+  urldate = {2020-05-28},
+  abstract = {This work introduces a novel convolutional network architecture for the task of human pose estimation. Features are processed across all scales and consolidated to best capture the various spatial relationships associated with the body. We show how repeated bottom-up, top-down processing used in conjunction with intermediate supervision is critical to improving the performance of the network. We refer to the architecture as a “stacked hourglass” network based on the successive steps of pooling and upsampling that are done to produce a final set of predictions. State-of-the-art results are achieved on the FLIC and MPII benchmarks outcompeting all recent methods.},
+  archivePrefix = {arXiv},
+  eprint = {1603.06937},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/N2JWM5KR/Newell et al. - 2016 - Stacked Hourglass Networks for Human Pose Estimati.pdf},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  langid = {english},
+  primaryClass = {cs}
+}
+
+@article{ning,
+  title = {Dual {{Path Networks}} for {{Multi}}-{{Person Human Pose Estimation}}},
+  author = {Ning, Guanghan and He, Zhihai},
+  pages = {5},
+  abstract = {The task of multi-person human pose estimation in natural scenes is quite challenging. Existing methods include both top-down and bottom-up approaches. The main advantage of bottom-up methods is its excellent tradeoff between estimation accuracy and computational cost. We follow this path and aim to design smaller, faster, and more accurate neural networks for the regression of keypoints and limb association vectors. These two regression tasks are naturally dependent on each other. In this work, we propose a dual-path network[9] specially designed for multi-person human pose estimation, and compare our performance with the openpose[2, 8] network in aspects of model size, forward speed, and estimation accuracy.},
+  file = {/Users/ben/Zotero/storage/I7SAXM5Q/Ning and He - Dual Path Networks for Multi-Person Human Pose Est.pdf},
+  keywords = {performance},
+  langid = {english}
+}
+
+@article{papandreou2017,
+  title = {Towards {{Accurate Multi}}-Person {{Pose Estimation}} in the {{Wild}}},
+  author = {Papandreou, George and Zhu, Tyler and Kanazawa, Nori and Toshev, Alexander and Tompson, Jonathan and Bregler, Chris and Murphy, Kevin},
+  date = {2017-04-14},
+  url = {http://arxiv.org/abs/1701.01779},
+  urldate = {2020-05-28},
+  abstract = {We propose a method for multi-person detection and 2D pose estimation that achieves state-of-art results on the challenging COCO keypoints task. It is a simple, yet powerful, top-down approach consisting of two stages.},
+  archivePrefix = {arXiv},
+  eprint = {1701.01779},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/44IWBADC/Papandreou et al. - 2017 - Towards Accurate Multi-person Pose Estimation in t.pdf},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition,topdown},
+  langid = {english},
+  primaryClass = {cs}
+}
+
+@article{papandreou2018,
+  title = {{{PersonLab}}: {{Person Pose Estimation}} and {{Instance Segmentation}} with a {{Bottom}}-{{Up}}, {{Part}}-{{Based}}, {{Geometric Embedding Model}}},
+  shorttitle = {{{PersonLab}}},
+  author = {Papandreou, George and Zhu, Tyler and Chen, Liang-Chieh and Gidaris, Spyros and Tompson, Jonathan and Murphy, Kevin},
+  date = {2018-03-22},
+  url = {http://arxiv.org/abs/1803.08225},
+  urldate = {2020-05-28},
+  abstract = {We present a box-free bottom-up approach for the tasks of pose estimation and instance segmentation of people in multi-person images using an efficient single-shot model. The proposed PersonLab model tackles both semantic-level reasoning and object-part associations using part-based modeling. Our model employs a convolutional network which learns to detect individual keypoints and predict their relative displacements, allowing us to group keypoints into person pose instances. Further, we propose a part-induced geometric embedding descriptor which allows us to associate semantic person pixels with their corresponding person instance, delivering instance-level person segmentations. Our system is based on a fully-convolutional architecture and allows for efficient inference, with runtime essentially independent of the number of people present in the scene. Trained on COCO data alone, our system achieves COCO test-dev keypoint average precision of 0.665 using single-scale inference and 0.687 using multi-scale inference, significantly outperforming all previous bottom-up pose estimation systems. We are also the first bottom-up method to report competitive results for the person class in the COCO instance segmentation task, achieving a person category average precision of 0.417.},
+  archivePrefix = {arXiv},
+  eprint = {1803.08225},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/JD65R8SB/Papandreou et al. - 2018 - PersonLab Person Pose Estimation and Instance Seg.pdf},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  langid = {english},
+  primaryClass = {cs}
+}
+
+@article{papernot2017,
+  title = {Practical {{Black}}-{{Box Attacks}} against {{Machine Learning}}},
+  author = {Papernot, Nicolas and McDaniel, Patrick and Goodfellow, Ian and Jha, Somesh and Celik, Z. Berkay and Swami, Ananthram},
+  date = {2017-03-19},
+  url = {http://arxiv.org/abs/1602.02697},
+  urldate = {2020-05-31},
+  abstract = {Machine learning (ML) models, e.g., deep neural networks (DNNs), are vulnerable to adversarial examples: malicious inputs modified to yield erroneous model outputs, while appearing unmodified to human observers. Potential attacks include having malicious content like malware identified as legitimate or controlling vehicle behavior. Yet, all existing adversarial example attacks require knowledge of either the model internals or its training data. We introduce the first practical demonstration of an attacker controlling a remotely hosted DNN with no such knowledge. Indeed, the only capability of our black-box adversary is to observe labels given by the DNN to chosen inputs. Our attack strategy consists in training a local model to substitute for the target DNN, using inputs synthetically generated by an adversary and labeled by the target DNN. We use the local substitute to craft adversarial examples, and find that they are misclassified by the targeted DNN. To perform a real-world and properly-blinded evaluation, we attack a DNN hosted by MetaMind, an online deep learning API. We find that their DNN misclassifies 84.24\% of the adversarial examples crafted with our substitute. We demonstrate the general applicability of our strategy to many ML techniques by conducting the same attack against models hosted by Amazon and Google, using logistic regression substitutes. They yield adversarial examples misclassified by Amazon and Google at rates of 96.19\% and 88.94\%. We also find that this black-box attack strategy is capable of evading defense strategies previously found to make adversarial example crafting harder.},
+  archivePrefix = {arXiv},
+  eprint = {1602.02697},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/4HRNGLBR/Papernot et al. - 2017 - Practical Black-Box Attacks against Machine Learni.pdf},
+  keywords = {Computer Science - Cryptography and Security,Computer Science - Machine Learning},
+  langid = {english},
+  primaryClass = {cs}
+}
+
+@inproceedings{papernot2018,
+  ids = {papernot2018a},
+  title = {{{SoK}}: {{Security}} and {{Privacy}} in {{Machine Learning}}},
+  shorttitle = {{{SoK}}},
+  booktitle = {2018 {{IEEE European Symposium}} on {{Security}} and {{Privacy}} ({{EuroS}}\&{{P}})},
+  author = {Papernot, Nicolas and McDaniel, Patrick and Sinha, Arunesh and Wellman, Michael P.},
+  date = {2018-04},
+  pages = {399--414},
+  publisher = {{IEEE}},
+  location = {{London}},
+  doi = {10.1109/EuroSP.2018.00035},
+  url = {https://ieeexplore.ieee.org/document/8406613/},
+  urldate = {2020-04-15},
+  abstract = {Advances in machine learning (ML) in recent years have enabled a dizzying array of applications such as data analytics, autonomous systems, and security diagnostics. ML is now pervasive—new systems and models are being deployed in every domain imaginable, leading to widespread deployment of software based inference and decision making. There is growing recognition that ML exposes new vulnerabilities in software systems, yet the technical community’s understanding of the nature and extent of these vulnerabilities remains limited. We systematize findings on ML security and privacy, focusing on attacks identified on these systems and defenses crafted to date. We articulate a comprehensive threat model for ML, and categorize attacks and defenses within an adversarial framework. Key insights resulting from works both in the ML and security communities are identified and the effectiveness of approaches are related to structural elements of ML algorithms and the data used to train them. In particular, it is apparent that constructing a theoretical understanding of the sensitivity of modern ML algorithms to the data they analyze, a` la PAC theory, will foster a science of security and privacy in ML.},
+  eventtitle = {2018 {{IEEE European Symposium}} on {{Security}} and {{Privacy}} ({{EuroS}}\&{{P}})},
+  file = {/Users/ben/Zotero/storage/DQRHUDVN/Papernot et al. - 2018 - SoK Security and Privacy in Machine Learning.pdf;/Users/ben/Zotero/storage/GBAJCYVZ/Papernot et al. - 2018 - SoK Security and Privacy in Machine Learning.pdf},
+  isbn = {978-1-5386-4228-3},
+  langid = {english}
+}
+
+@article{pavllo2019,
+  title = {{{3D}} Human Pose Estimation in Video with Temporal Convolutions and Semi-Supervised Training},
+  author = {Pavllo, Dario and Feichtenhofer, Christoph and Grangier, David and Auli, Michael},
+  date = {2019-03-29},
+  url = {http://arxiv.org/abs/1811.11742},
+  urldate = {2020-05-31},
+  abstract = {In this work, we demonstrate that 3D poses in video can be effectively estimated with a fully convolutional model based on dilated temporal convolutions over 2D keypoints. We also introduce back-projection, a simple and effective semi-supervised training method that leverages unlabeled video data. We start with predicted 2D keypoints for unlabeled video, then estimate 3D poses and finally back-project to the input 2D keypoints. In the supervised setting, our fully-convolutional model outperforms the previous best result from the literature by 6 mm mean per-joint position error on Human3.6M, corresponding to an error reduction of 11\%, and the model also shows significant improvements on HumanEva-I. Moreover, experiments with back-projection show that it comfortably outperforms previous state-of-the-art results in semi-supervised settings where labeled data is scarce. Code and models are available at https://github.com/facebookresearch/VideoPose3D},
+  archivePrefix = {arXiv},
+  eprint = {1811.11742},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/XSBR7BVG/Pavllo et al. - 2019 - 3D human pose estimation in video with temporal co.pdf;/Users/ben/Zotero/storage/YU7RTD7V/1811.html},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  primaryClass = {cs}
+}
+
+@article{pham2019,
+  title = {A {{Unified Deep Framework}} for {{Joint 3D Pose Estimation}} and {{Action Recognition}} from a {{Single RGB Camera}}},
+  author = {Pham, Huy Hieu and Salmane, Houssam and Khoudour, Louahdi and Crouzil, Alain and Zegers, Pablo and Velastin, Sergio A.},
+  date = {2019-07-16},
+  url = {http://arxiv.org/abs/1907.06968},
+  urldate = {2020-05-30},
+  abstract = {We present a deep learning-based multitask framework for joint 3D human pose estimation and action recognition from RGB video sequences. Our approach proceeds along two stages. In the first, we run a real-time 2D pose detector to determine the precise pixel location of important keypoints of the body. A two-stream neural network is then designed and trained to map detected 2D keypoints into 3D poses. In the second, we deploy the Efficient Neural Architecture Search (ENAS) algorithm to find an optimal network architecture that is used for modeling the spatio-temporal evolution of the estimated 3D poses via an image-based intermediate representation and performing action recognition. Experiments on Human3.6M, MSR Action3D and SBU Kinect Interaction datasets verify the effectiveness of the proposed method on the targeted tasks. Moreover, we show that our method requires a low computational budget for training and inference.},
+  archivePrefix = {arXiv},
+  eprint = {1907.06968},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/WZ4ZPYJL/Pham et al. - 2019 - A Unified Deep Framework for Joint 3D Pose Estimat.pdf;/Users/ben/Zotero/storage/LL2A9Z3D/1907.html},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  primaryClass = {cs},
+  version = {1}
+}
+
+@inproceedings{pishchulin2016,
+  title = {{{DeepCut}}: {{Joint Subset Partition}} and {{Labeling}} for {{Multi Person Pose Estimation}}},
+  shorttitle = {{{DeepCut}}},
+  author = {Pishchulin, Leonid and Insafutdinov, Eldar and Tang, Siyu and Andres, Bjoern and Andriluka, Mykhaylo and Gehler, Peter V. and Schiele, Bernt},
+  date = {2016},
+  pages = {4929--4937},
+  url = {https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Pishchulin_DeepCut_Joint_Subset_CVPR_2016_paper.html},
+  urldate = {2020-05-29},
+  eventtitle = {Proceedings of the {{IEEE Conference}} on {{Computer Vision}} and {{Pattern Recognition}}},
+  file = {/Users/ben/Zotero/storage/ICTW453E/Pishchulin et al. - 2016 - DeepCut Joint Subset Partition and Labeling for M.pdf;/Users/ben/Zotero/storage/ZIRTNHBX/Pishchulin_DeepCut_Joint_Subset_CVPR_2016_paper.html}
+}
+
+@software{qian2020,
+  title = {Timqian/Star-History},
+  author = {Qian, Tim},
+  date = {2020-05-31T04:24:04Z},
+  origdate = {2015-09-23T03:30:28Z},
+  url = {https://github.com/timqian/star-history},
+  urldate = {2020-05-31},
+  abstract = {The missing star history graph of github repos. Contribute to timqian/star-history development by creating an account on GitHub.},
+  keywords = {github,graph,history,star,star-history}
+}
+
+@article{raghu2020,
+  title = {A {{Survey}} of {{Deep Learning}} for {{Scientific Discovery}}},
+  author = {Raghu, Maithra and Schmidt, Eric},
+  date = {2020-03-26},
+  url = {http://arxiv.org/abs/2003.11755},
+  urldate = {2020-05-31},
+  abstract = {Over the past few years, we have seen fundamental breakthroughs in core problems in machine learning, largely driven by advances in deep neural networks. At the same time, the amount of data collected in a wide array of scientific domains is dramatically increasing in both size and complexity. Taken together, this suggests many exciting opportunities for deep learning applications in scientific settings. But a significant challenge to this is simply knowing where to start. The sheer breadth and diversity of different deep learning techniques makes it difficult to determine what scientific problems might be most amenable to these methods, or which specific combination of methods might offer the most promising first approach. In this survey, we focus on addressing this central issue, providing an overview of many widely used deep learning models, spanning visual, sequential and graph structured data, associated tasks and different training methods, along with techniques to use deep learning with less data and better interpret these complex models — two central considerations for many scientific use cases. We also include overviews of the full design process, implementation tips, and links to a plethora of tutorials, research summaries and open-sourced deep learning pipelines and pretrained models, developed by the community. We hope that this survey will help accelerate the use of deep learning across different scientific domains.},
+  archivePrefix = {arXiv},
+  eprint = {2003.11755},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/LFR94QCH/Raghu and Schmidt - 2020 - A Survey of Deep Learning for Scientific Discovery.pdf},
+  keywords = {Computer Science - Machine Learning,Statistics - Machine Learning},
+  langid = {english},
+  primaryClass = {cs, stat}
+}
+
+@incollection{ramakrishna2014,
+  title = {Pose {{Machines}}: {{Articulated Pose Estimation}} via {{Inference Machines}}},
+  shorttitle = {Pose {{Machines}}},
+  booktitle = {Computer {{Vision}} – {{ECCV}} 2014},
+  author = {Ramakrishna, Varun and Munoz, Daniel and Hebert, Martial and Andrew Bagnell, James and Sheikh, Yaser},
+  editor = {Fleet, David and Pajdla, Tomas and Schiele, Bernt and Tuytelaars, Tinne},
+  date = {2014},
+  volume = {8690},
+  pages = {33--47},
+  publisher = {{Springer International Publishing}},
+  location = {{Cham}},
+  doi = {10.1007/978-3-319-10605-2_3},
+  url = {http://link.springer.com/10.1007/978-3-319-10605-2_3},
+  urldate = {2020-06-02},
+  abstract = {State-of-the-art approaches for articulated human pose estimation are rooted in parts-based graphical models. These models are often restricted to tree-structured representations and simple parametric potentials in order to enable tractable inference. However, these simple dependencies fail to capture all the interactions between body parts. While models with more complex interactions can be defined, learning the parameters of these models remains challenging with intractable or approximate inference. In this paper, instead of performing inference on a learned graphical model, we build upon the inference machine framework and present a method for articulated human pose estimation. Our approach incorporates rich spatial interactions among multiple parts and information across parts of different scales. Additionally, the modular framework of our approach enables both ease of implementation without specialized optimization solvers, and efficient inference. We analyze our approach on two challenging datasets with large pose variation and outperform the state-of-the-art on these benchmarks.},
+  file = {/Users/ben/Zotero/storage/A2W96PSZ/Ramakrishna et al. - 2014 - Pose Machines Articulated Pose Estimation via Inf.pdf},
+  isbn = {978-3-319-10604-5 978-3-319-10605-2},
+  langid = {english},
+  series = {Lecture {{Notes}} in {{Computer Science}}}
+}
+
+@article{ren2016,
+  title = {Faster {{R}}-{{CNN}}: {{Towards Real}}-{{Time Object Detection}} with {{Region Proposal Networks}}},
+  shorttitle = {Faster {{R}}-{{CNN}}},
+  author = {Ren, Shaoqing and He, Kaiming and Girshick, Ross and Sun, Jian},
+  date = {2016-01-06},
+  url = {http://arxiv.org/abs/1506.01497},
+  urldate = {2020-05-31},
+  abstract = {State-of-the-art object detection networks depend on region proposal algorithms to hypothesize object locations. Advances like SPPnet [1] and Fast R-CNN [2] have reduced the running time of these detection networks, exposing region proposal computation as a bottleneck. In this work, we introduce a Region Proposal Network (RPN) that shares full-image convolutional features with the detection network, thus enabling nearly cost-free region proposals. An RPN is a fully convolutional network that simultaneously predicts object bounds and objectness scores at each position. The RPN is trained end-to-end to generate high-quality region proposals, which are used by Fast R-CNN for detection. We further merge RPN and Fast R-CNN into a single network by sharing their convolutional features—using the recently popular terminology of neural networks with “attention” mechanisms, the RPN component tells the unified network where to look. For the very deep VGG-16 model [3], our detection system has a frame rate of 5fps (including all steps) on a GPU, while achieving state-of-the-art object detection accuracy on PASCAL VOC 2007, 2012, and MS COCO datasets with only 300 proposals per image. In ILSVRC and COCO 2015 competitions, Faster R-CNN and RPN are the foundations of the 1st-place winning entries in several tracks. Code has been made publicly available.},
+  archivePrefix = {arXiv},
+  eprint = {1506.01497},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/B86MUYSE/Ren et al. - 2016 - Faster R-CNN Towards Real-Time Object Detection w.pdf},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  langid = {english},
+  primaryClass = {cs}
+}
+
+@article{ryffel2018,
+  title = {A Generic Framework for Privacy Preserving Deep Learning},
+  author = {Ryffel, Theo and Trask, Andrew and Dahl, Morten and Wagner, Bobby and Mancuso, Jason and Rueckert, Daniel and Passerat-Palmbach, Jonathan},
+  date = {2018-11-13},
+  url = {http://arxiv.org/abs/1811.04017},
+  urldate = {2020-05-31},
+  abstract = {We detail a new framework for privacy preserving deep learning and discuss its assets. The framework puts a premium on ownership and secure processing of data and introduces a valuable representation based on chains of commands and tensors. This abstraction allows one to implement complex privacy preserving constructs such as Federated Learning, Secure Multiparty Computation, and Differential Privacy while still exposing a familiar deep learning API to the end-user. We report early results on the Boston Housing and Pima Indian Diabetes datasets. While the privacy features apart from Differential Privacy do not impact the prediction accuracy, the current implementation of the framework introduces a significant overhead in performance, which will be addressed at a later stage of the development. We believe this work is an important milestone introducing the first reliable, general framework for privacy preserving deep learning.},
+  archivePrefix = {arXiv},
+  eprint = {1811.04017},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/9293T7BK/Ryffel et al. - 2018 - A generic framework for privacy preserving deep le.pdf},
+  keywords = {Computer Science - Cryptography and Security,Computer Science - Machine Learning,Statistics - Machine Learning},
+  langid = {english},
+  primaryClass = {cs, stat}
+}
+
+@inproceedings{sapp2013,
+  title = {{{MODEC}}: {{Multimodal Decomposable Models}} for {{Human Pose Estimation}}},
+  shorttitle = {{{MODEC}}},
+  booktitle = {2013 {{IEEE Conference}} on {{Computer Vision}} and {{Pattern Recognition}}},
+  author = {Sapp, Ben and Taskar, Ben},
+  date = {2013-06},
+  pages = {3674--3681},
+  publisher = {{IEEE}},
+  location = {{Portland, OR, USA}},
+  doi = {10.1109/CVPR.2013.471},
+  url = {http://ieeexplore.ieee.org/document/6619315/},
+  urldate = {2020-05-31},
+  eventtitle = {2013 {{IEEE Conference}} on {{Computer Vision}} and {{Pattern Recognition}} ({{CVPR}})},
+  file = {/Users/ben/Zotero/storage/W5DYXZMB/Sapp and Taskar - 2013 - MODEC Multimodal Decomposable Models for Human Po.pdf},
+  isbn = {978-0-7695-4989-7},
+  langid = {english}
+}
+
+@article{sarafianos2016,
+  title = {{{3D Human}} Pose Estimation: {{A}} Review of the Literature and Analysis of Covariates},
+  shorttitle = {{{3D Human}} Pose Estimation},
+  author = {Sarafianos, Nikolaos and Boteanu, Bogdan and Ionescu, Bogdan and Kakadiaris, Ioannis A.},
+  date = {2016-11-01},
+  journaltitle = {Computer Vision and Image Understanding},
+  shortjournal = {Computer Vision and Image Understanding},
+  volume = {152},
+  pages = {1--20},
+  issn = {1077-3142},
+  doi = {10.1016/j.cviu.2016.09.002},
+  url = {http://www.sciencedirect.com/science/article/pii/S1077314216301369},
+  urldate = {2020-06-05},
+  abstract = {Estimating the pose of a human in 3D given an image or a video has recently received significant attention from the scientific community. The main reasons for this trend are the ever increasing new range of applications (e.g., human-robot interaction, gaming, sports performance analysis) which are driven by current technological advances. Although recent approaches have dealt with several challenges and have reported remarkable results, 3D pose estimation remains a largely unsolved problem because real-life applications impose several challenges which are not fully addressed by existing methods. For example, estimating the 3D pose of multiple people in an outdoor environment remains a largely unsolved problem. In this paper, we review the recent advances in 3D human pose estimation from RGB images or image sequences. We propose a taxonomy of the approaches based on the input (e.g., single image or video, monocular or multi-view) and in each case we categorize the methods according to their key characteristics. To provide an overview of the current capabilities, we conducted an extensive experimental evaluation of state-of-the-art approaches in a synthetic dataset created specifically for this task, which along with its ground truth is made publicly available for research purposes. Finally, we provide an in-depth discussion of the insights obtained from reviewing the literature and the results of our experiments. Future directions and challenges are identified.},
+  file = {/Users/ben/Zotero/storage/5JRRG9AL/Sarafianos et al. - 2016 - 3D Human pose estimation A review of the literatu.pdf;/Users/ben/Zotero/storage/RKTB2YTM/S1077314216301369.html},
+  keywords = {3D Human pose estimation,Anthropometry,Articulated tracking,Human motion analysis},
+  langid = {english}
+}
+
+@article{sculley,
+  title = {Machine {{Learning}}: {{The High}}-{{Interest Credit Card}} of {{Technical Debt}}},
+  author = {Sculley, D and Holt, Gary and Golovin, Daniel and Davydov, Eugene and Phillips, Todd and Ebner, Dietmar and Chaudhary, Vinay and Young, Michael},
+  pages = {9},
+  abstract = {Machine learning offers a fantastically powerful toolkit for building complex systems quickly. This paper argues that it is dangerous to think of these quick wins as coming for free. Using the framework of technical debt, we note that it is remarkably easy to incur massive ongoing maintenance costs at the system level when applying machine learning. The goal of this paper is highlight several machine learning specific risk factors and design patterns to be avoided or refactored where possible. These include boundary erosion, entanglement, hidden feedback loops, undeclared consumers, data dependencies, changes in the external world, and a variety of system-level anti-patterns.},
+  file = {/Users/ben/Zotero/storage/DMXKTSIJ/Sculley et al. - Machine Learning The High-Interest Credit Card of.pdf},
+  langid = {english}
+}
+
+@article{sigal2010,
+  title = {{{HumanEva}}: {{Synchronized Video}} and {{Motion Capture Dataset}} and {{Baseline Algorithm}} for {{Evaluation}} of {{Articulated Human Motion}}},
+  shorttitle = {{{HumanEva}}},
+  author = {Sigal, Leonid and Balan, Alexandru O. and Black, Michael J.},
+  date = {2010-03},
+  journaltitle = {International Journal of Computer Vision},
+  shortjournal = {Int J Comput Vis},
+  volume = {87},
+  pages = {4--27},
+  issn = {0920-5691, 1573-1405},
+  doi = {10.1007/s11263-009-0273-6},
+  url = {http://link.springer.com/10.1007/s11263-009-0273-6},
+  urldate = {2020-06-01},
+  abstract = {While research on articulated human motion and pose estimation has progressed rapidly in the last few years, there has been no systematic quantitative evaluation of competing methods to establish the current state of the art. We present data obtained using a hardware system that is able to capture synchronized video and ground-truth 3D motion. The resulting HUMANEVA datasets contain multiple subjects performing a set of predefined actions with a number of repetitions. On the order of 40, 000 frames of synchronized motion capture and multi-view video (resulting in over one quarter million image frames in total) were collected at 60 Hz with an additional 37, 000 time instants of pure motion capture data. A standard set of error measures is defined for evaluating both 2D and 3D pose estimation and tracking algorithms. We also describe a baseline algorithm for 3D articulated tracking that uses a relatively standard Bayesian framework with optimization in the form of Sequential Importance Resampling and Annealed Particle Filtering. In the context of this baseline algorithm we explore a variety of likelihood functions, prior models of human motion and the effects of algorithm parameters. Our experiments suggest that image observation models and motion priors play important roles in performance, and that in a multi-view laboratory environment, where initialization is available, Bayesian filtering tends to perform well. The datasets and the software are made available to the research community. This infrastructure will support the development of new articulated motion and pose estimation algorithms, will provide a baseline for the evaluation and comparison of new methods, and will help establish the current state of the art in human pose estimation and tracking.},
+  file = {/Users/ben/Zotero/storage/45QAXEDW/Sigal et al. - 2010 - HumanEva Synchronized Video and Motion Capture Da.pdf},
+  langid = {english},
+  number = {1-2}
+}
+
+@article{simonyan2015,
+  title = {Very {{Deep Convolutional Networks}} for {{Large}}-{{Scale Image Recognition}}},
+  author = {Simonyan, Karen and Zisserman, Andrew},
+  date = {2015-04-10},
+  url = {http://arxiv.org/abs/1409.1556},
+  urldate = {2020-05-30},
+  abstract = {In this work we investigate the effect of the convolutional network depth on its accuracy in the large-scale image recognition setting. Our main contribution is a thorough evaluation of networks of increasing depth using an architecture with very small (3x3) convolution filters, which shows that a significant improvement on the prior-art configurations can be achieved by pushing the depth to 16-19 weight layers. These findings were the basis of our ImageNet Challenge 2014 submission, where our team secured the first and the second places in the localisation and classification tracks respectively. We also show that our representations generalise well to other datasets, where they achieve state-of-the-art results. We have made our two best-performing ConvNet models publicly available to facilitate further research on the use of deep visual representations in computer vision.},
+  archivePrefix = {arXiv},
+  eprint = {1409.1556},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/DL6R6K9T/Simonyan and Zisserman - 2015 - Very Deep Convolutional Networks for Large-Scale I.pdf;/Users/ben/Zotero/storage/SPPFHLBB/1409.html},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  primaryClass = {cs}
+}
+
+@article{sun2019,
+  title = {Deep {{High}}-{{Resolution Representation Learning}} for {{Human Pose Estimation}}},
+  author = {Sun, Ke and Xiao, Bin and Liu, Dong and Wang, Jingdong},
+  date = {2019-02-25},
+  url = {http://arxiv.org/abs/1902.09212},
+  urldate = {2020-05-28},
+  abstract = {In this paper, we are interested in the human pose estimation problem with a focus on learning reliable highresolution representations. Most existing methods recover high-resolution representations from low-resolution representations produced by a high-to-low resolution network. Instead, our proposed network maintains high-resolution representations through the whole process.},
+  archivePrefix = {arXiv},
+  eprint = {1902.09212},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/FNKBK92S/Sun et al. - 2019 - Deep High-Resolution Representation Learning for H.pdf},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  langid = {english},
+  primaryClass = {cs}
+}
+
+@article{szegedy2014,
+  title = {Going {{Deeper}} with {{Convolutions}}},
+  author = {Szegedy, Christian and Liu, Wei and Jia, Yangqing and Sermanet, Pierre and Reed, Scott and Anguelov, Dragomir and Erhan, Dumitru and Vanhoucke, Vincent and Rabinovich, Andrew},
+  date = {2014-09-16},
+  url = {http://arxiv.org/abs/1409.4842},
+  urldate = {2020-05-31},
+  abstract = {We propose a deep convolutional neural network architecture codenamed "Inception", which was responsible for setting the new state of the art for classification and detection in the ImageNet Large-Scale Visual Recognition Challenge 2014 (ILSVRC 2014). The main hallmark of this architecture is the improved utilization of the computing resources inside the network. This was achieved by a carefully crafted design that allows for increasing the depth and width of the network while keeping the computational budget constant. To optimize quality, the architectural decisions were based on the Hebbian principle and the intuition of multi-scale processing. One particular incarnation used in our submission for ILSVRC 2014 is called GoogLeNet, a 22 layers deep network, the quality of which is assessed in the context of classification and detection.},
+  archivePrefix = {arXiv},
+  eprint = {1409.4842},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/CZQBECTN/Szegedy et al. - 2014 - Going Deeper with Convolutions.pdf;/Users/ben/Zotero/storage/JXY2SSBN/1409.html},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  primaryClass = {cs},
+  version = {1}
+}
+
+@article{szegedy2015,
+  title = {Rethinking the {{Inception Architecture}} for {{Computer Vision}}},
+  author = {Szegedy, Christian and Vanhoucke, Vincent and Ioffe, Sergey and Shlens, Jonathon and Wojna, Zbigniew},
+  date = {2015-12-11},
+  url = {http://arxiv.org/abs/1512.00567},
+  urldate = {2020-05-31},
+  abstract = {Convolutional networks are at the core of most state-of-the-art computer vision solutions for a wide variety of tasks. Since 2014 very deep convolutional networks started to become mainstream, yielding substantial gains in various benchmarks. Although increased model size and computational cost tend to translate to immediate quality gains for most tasks (as long as enough labeled data is provided for training), computational efficiency and low parameter count are still enabling factors for various use cases such as mobile vision and big-data scenarios. Here we explore ways to scale up networks in ways that aim at utilizing the added computation as efficiently as possible by suitably factorized convolutions and aggressive regularization. We benchmark our methods on the ILSVRC 2012 classification challenge validation set demonstrate substantial gains over the state of the art: 21.2\% top-1 and 5.6\% top-5 error for single frame evaluation using a network with a computational cost of 5 billion multiply-adds per inference and with using less than 25 million parameters. With an ensemble of 4 models and multi-crop evaluation, we report 3.5\% top-5 error on the validation set (3.6\% error on the test set) and 17.3\% top-1 error on the validation set.},
+  archivePrefix = {arXiv},
+  eprint = {1512.00567},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/WJL5S7N4/Szegedy et al. - 2015 - Rethinking the Inception Architecture for Computer.pdf;/Users/ben/Zotero/storage/9BTZW9KC/1512.html},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  primaryClass = {cs},
+  version = {3}
+}
+
+@article{szegedy2016,
+  ids = {szegedy2016a},
+  title = {Inception-v4, {{Inception}}-{{ResNet}} and the {{Impact}} of {{Residual Connections}} on {{Learning}}},
+  author = {Szegedy, Christian and Ioffe, Sergey and Vanhoucke, Vincent and Alemi, Alex},
+  date = {2016-08-23},
+  url = {http://arxiv.org/abs/1602.07261},
+  urldate = {2020-05-31},
+  abstract = {Very deep convolutional networks have been central to the largest advances in image recognition performance in recent years. One example is the Inception architecture that has been shown to achieve very good performance at relatively low computational cost. Recently, the introduction of residual connections in conjunction with a more traditional architecture has yielded state-of-the-art performance in the 2015 ILSVRC challenge; its performance was similar to the latest generation Inception-v3 network. This raises the question of whether there are any benefit in combining the Inception architecture with residual connections. Here we give clear empirical evidence that training with residual connections accelerates the training of Inception networks significantly. There is also some evidence of residual Inception networks outperforming similarly expensive Inception networks without residual connections by a thin margin. We also present several new streamlined architectures for both residual and non-residual Inception networks. These variations improve the single-frame recognition performance on the ILSVRC 2012 classification task significantly. We further demonstrate how proper activation scaling stabilizes the training of very wide residual Inception networks. With an ensemble of three residual and one Inception-v4, we achieve 3.08 percent top-5 error on the test set of the ImageNet classification (CLS) challenge},
+  archivePrefix = {arXiv},
+  eprint = {1602.07261},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/2CVAECNA/Szegedy et al. - 2016 - Inception-v4, Inception-ResNet and the Impact of R.pdf;/Users/ben/Zotero/storage/AH6APY53/Szegedy et al. - 2016 - Inception-v4, Inception-ResNet and the Impact of R.pdf;/Users/ben/Zotero/storage/C7SZDCPE/1602.html;/Users/ben/Zotero/storage/MM34J8N3/1602.html},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  primaryClass = {cs}
+}
+
+@article{tan2019,
+  title = {{{EfficientNet}}: {{Rethinking Model Scaling}} for {{Convolutional Neural Networks}}},
+  shorttitle = {{{EfficientNet}}},
+  author = {Tan, Mingxing and Le, Quoc V.},
+  date = {2019-11-22},
+  url = {http://arxiv.org/abs/1905.11946},
+  urldate = {2020-06-01},
+  abstract = {Convolutional Neural Networks (ConvNets) are commonly developed at a fixed resource budget, and then scaled up for better accuracy if more resources are available. In this paper, we systematically study model scaling and identify that carefully balancing network depth, width, and resolution can lead to better performance. Based on this observation, we propose a new scaling method that uniformly scales all dimensions of depth/width/resolution using a simple yet highly effective compound coefficient. We demonstrate the effectiveness of this method on scaling up MobileNets and ResNet. To go even further, we use neural architecture search to design a new baseline network and scale it up to obtain a family of models, called EfficientNets, which achieve much better accuracy and efficiency than previous ConvNets. In particular, our EfficientNet-B7 achieves state-of-the-art 84.4\% top-1 / 97.1\% top-5 accuracy on ImageNet, while being 8.4x smaller and 6.1x faster on inference than the best existing ConvNet. Our EfficientNets also transfer well and achieve state-of-the-art accuracy on CIFAR-100 (91.7\%), Flowers (98.8\%), and 3 other transfer learning datasets, with an order of magnitude fewer parameters. Source code is at https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet.},
+  archivePrefix = {arXiv},
+  eprint = {1905.11946},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/QBCT6DQI/Tan and Le - 2019 - EfficientNet Rethinking Model Scaling for Convolu.pdf;/Users/ben/Zotero/storage/N78KELAH/1905.html},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning,Statistics - Machine Learning},
+  primaryClass = {cs, stat}
+}
+
+@article{tan2019a,
+  title = {{{MnasNet}}: {{Platform}}-{{Aware Neural Architecture Search}} for {{Mobile}}},
+  shorttitle = {{{MnasNet}}},
+  author = {Tan, Mingxing and Chen, Bo and Pang, Ruoming and Vasudevan, Vijay and Sandler, Mark and Howard, Andrew and Le, Quoc V.},
+  date = {2019-05-28},
+  url = {http://arxiv.org/abs/1807.11626},
+  urldate = {2020-06-01},
+  abstract = {Designing convolutional neural networks (CNN) for mobile devices is challenging because mobile models need to be small and fast, yet still accurate. Although significant efforts have been dedicated to design and improve mobile CNNs on all dimensions, it is very difficult to manually balance these trade-offs when there are so many architectural possibilities to consider. In this paper, we propose an automated mobile neural architecture search (MNAS) approach, which explicitly incorporate model latency into the main objective so that the search can identify a model that achieves a good trade-off between accuracy and latency. Unlike previous work, where latency is considered via another, often inaccurate proxy (e.g., FLOPS), our approach directly measures real-world inference latency by executing the model on mobile phones. To further strike the right balance between flexibility and search space size, we propose a novel factorized hierarchical search space that encourages layer diversity throughout the network. Experimental results show that our approach consistently outperforms state-of-the-art mobile CNN models across multiple vision tasks. On the ImageNet classification task, our MnasNet achieves 75.2\% top-1 accuracy with 78ms latency on a Pixel phone, which is 1.8x faster than MobileNetV2 [29] with 0.5\% higher accuracy and 2.3x faster than NASNet [36] with 1.2\% higher accuracy. Our MnasNet also achieves better mAP quality than MobileNets for COCO object detection. Code is at https://github.com/tensorflow/tpu/tree/master/models/official/mnasnet},
+  archivePrefix = {arXiv},
+  eprint = {1807.11626},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/VAHUF9FD/Tan et al. - 2019 - MnasNet Platform-Aware Neural Architecture Search.pdf;/Users/ben/Zotero/storage/UPWBSE67/1807.html},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning},
+  primaryClass = {cs}
+}
+
+@online{team,
+  title = {Keras Documentation: {{About Keras}}},
+  shorttitle = {Keras Documentation},
+  author = {Team, Keras},
+  url = {https://keras.io/about/},
+  urldate = {2020-05-31},
+  abstract = {Keras documentation},
+  file = {/Users/ben/Zotero/storage/BC2AN9YE/about.html},
+  langid = {english}
+}
+
+@report{tebar2020a,
+  ids = {tebar2020},
+  title = {Augmented {{Reality Sports}}},
+  author = {Tebar, Blanca and Chiki, Nahida and Clowes, Lloyd and Kaluzny, Hubert and Passerello, Giovanni and Forbes, Brandon},
+  date = {2020-01-08},
+  institution = {{Imperial College London}},
+  url = {https://www.youtube.com/watch?v=jGevjxFdjTw},
+  urldate = {2020-05-27},
+  file = {/Users/ben/Zotero/storage/72TFC7D3/AR Fitness.pdf}
+}
+
+@inproceedings{tome2017,
+  title = {Lifting {{From}} the {{Deep}}: {{Convolutional 3D Pose Estimation From}} a {{Single Image}}},
+  shorttitle = {Lifting {{From}} the {{Deep}}},
+  author = {Tome, Denis and Russell, Chris and Agapito, Lourdes},
+  date = {2017},
+  pages = {2500--2509},
+  url = {http://openaccess.thecvf.com/content_cvpr_2017/html/Tome_Lifting_From_the_CVPR_2017_paper.html},
+  urldate = {2020-05-29},
+  eventtitle = {Proceedings of the {{IEEE Conference}} on {{Computer Vision}} and {{Pattern Recognition}}},
+  file = {/Users/ben/Zotero/storage/S7P3QKQD/Tome et al. - 2017 - Lifting From the Deep Convolutional 3D Pose Estim.pdf;/Users/ben/Zotero/storage/XEPEC4GU/Tome_Lifting_From_the_CVPR_2017_paper.html}
+}
+
+@article{tompson2014,
+  title = {Joint {{Training}} of a {{Convolutional Network}} and a {{Graphical Model}} for {{Human Pose Estimation}}},
+  author = {Tompson, Jonathan and Jain, Arjun and LeCun, Yann and Bregler, Christoph},
+  date = {2014-09-17},
+  url = {http://arxiv.org/abs/1406.2984},
+  urldate = {2020-05-29},
+  abstract = {This paper proposes a new hybrid architecture that consists of a deep Convolutional Network and a Markov Random Field. We show how this architecture is successfully applied to the challenging problem of articulated human pose estimation in monocular images. The architecture can exploit structural domain constraints such as geometric relationships between body joint locations. We show that joint training of these two model paradigms improves performance and allows us to significantly outperform existing state-of-the-art techniques.},
+  archivePrefix = {arXiv},
+  eprint = {1406.2984},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/BZNZFKWS/Tompson et al. - 2014 - Joint Training of a Convolutional Network and a Gr.pdf;/Users/ben/Zotero/storage/VFUB78B2/1406.html},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  primaryClass = {cs}
+}
+
+@inproceedings{toshev2014,
+  title = {{{DeepPose}}: {{Human Pose Estimation}} via {{Deep Neural Networks}}},
+  shorttitle = {{{DeepPose}}},
+  booktitle = {2014 {{IEEE Conference}} on {{Computer Vision}} and {{Pattern Recognition}}},
+  author = {Toshev, Alexander and Szegedy, Christian},
+  date = {2014-06},
+  pages = {1653--1660},
+  publisher = {{IEEE}},
+  location = {{Columbus, OH, USA}},
+  doi = {10.1109/CVPR.2014.214},
+  url = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6909610},
+  urldate = {2020-05-28},
+  abstract = {We propose a method for human pose estimation based on Deep Neural Networks (DNNs). The pose estimation is formulated as a DNN-based regression problem towards body joints. We present a cascade of such DNN regressors which results in high precision pose estimates. The approach has the advantage of reasoning about pose in a holistic fashion and has a simple but yet powerful formulation which capitalizes on recent advances in Deep Learning. We present a detailed empirical analysis with state-ofart or better performance on four academic benchmarks of diverse real-world images.},
+  eventtitle = {2014 {{IEEE Conference}} on {{Computer Vision}} and {{Pattern Recognition}} ({{CVPR}})},
+  file = {/Users/ben/Zotero/storage/C3TKKQT2/Toshev and Szegedy - 2014 - DeepPose Human Pose Estimation via Deep Neural Ne.pdf},
+  isbn = {978-1-4799-5118-5},
+  langid = {english}
+}
+
+@inproceedings{trumble2017,
+  title = {Total {{Capture}}: {{3D Human Pose Estimation Fusing Video}} and {{Inertial Sensors}}},
+  shorttitle = {Total {{Capture}}},
+  booktitle = {Procedings of the {{British Machine Vision Conference}} 2017},
+  author = {Trumble, Matthew and Gilbert, Andrew and Malleson, Charles and Hilton, Adrian and Collomosse, John},
+  date = {2017},
+  pages = {14},
+  publisher = {{British Machine Vision Association}},
+  location = {{London, UK}},
+  doi = {10.5244/C.31.14},
+  url = {http://www.bmva.org/bmvc/2017/papers/paper014/index.html},
+  urldate = {2020-06-01},
+  abstract = {We present an algorithm for fusing multi-viewpoint video (MVV) with inertial measurement unit (IMU) sensor data to accurately estimate 3D human pose. A 3-D convolutional neural network is used to learn a pose embedding from volumetric probabilistic visual hull data (PVH) derived from the MVV frames. We incorporate this model within a dual stream network integrating pose embeddings derived from MVV and a forward kinematic solve of the IMU data. A temporal model (LSTM) is incorporated within both streams prior to their fusion. Hybrid pose inference using these two complementary data sources is shown to resolve ambiguities within each sensor modality, yielding improved accuracy over prior methods. A further contribution of this work is a new hybrid MVV dataset (TotalCapture) comprising video, IMU and a skeletal joint ground truth derived from a commercial motion capture system. The dataset is available online at http://cvssp.org/data/totalcapture/.},
+  eventtitle = {British {{Machine Vision Conference}} 2017},
+  file = {/Users/ben/Zotero/storage/IIWJHHNM/Trumble et al. - 2017 - Total Capture 3D Human Pose Estimation Fusing Vid.pdf},
+  isbn = {978-1-901725-60-5},
+  langid = {english}
+}
+
+@article{varol2017,
+  title = {Learning from {{Synthetic Humans}}},
+  author = {Varol, Gül and Romero, Javier and Martin, Xavier and Mahmood, Naureen and Black, Michael J. and Laptev, Ivan and Schmid, Cordelia},
+  date = {2017-07},
+  journaltitle = {2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages = {4627--4635},
+  doi = {10.1109/CVPR.2017.492},
+  url = {http://arxiv.org/abs/1701.01370},
+  urldate = {2020-05-28},
+  abstract = {Estimating human pose, shape, and motion from images and videos are fundamental challenges with many applications. Recent advances in 2D human pose estimation use large amounts of manually-labeled training data for learning convolutional neural networks (CNNs). Such data is time consuming to acquire and difficult to extend. Moreover, manual labeling of 3D pose, depth and motion is impractical. In this work we present SURREAL (Synthetic hUmans foR REAL tasks): a new large-scale dataset with synthetically-generated but realistic images of people rendered from 3D sequences of human motion capture data. We generate more than 6 million frames together with ground truth pose, depth maps, and segmentation masks. We show that CNNs trained on our synthetic dataset allow for accurate human depth estimation and human part segmentation in real RGB images. Our results and the new dataset open up new possibilities for advancing person analysis using cheap and large-scale synthetic data.},
+  archivePrefix = {arXiv},
+  eprint = {1701.01370},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/3E37S2G5/Varol et al. - 2017 - Learning from Synthetic Humans.pdf},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  langid = {english}
+}
+
+@article{wang,
+  title = {End-to-{{End Text Recognition}} with {{Convolutional Neural Networks}}},
+  author = {Wang, Tao and Wu, David J and Coates, Adam and Ng, Andrew Y},
+  pages = {5},
+  abstract = {Full end-to-end text recognition in natural images is a challenging problem that has received much attention recently. Traditional systems in this area have relied on elaborate models incorporating carefully handengineered features or large amounts of prior knowledge. In this paper, we take a different route and combine the representational power of large, multilayer neural networks together with recent developments in unsupervised feature learning, which allows us to use a common framework to train highly-accurate text detector and character recognizer modules. Then, using only simple off-the-shelf methods, we integrate these two modules into a full end-to-end, lexicon-driven, scene text recognition system that achieves state-of-the-art performance on standard benchmarks, namely Street View Text and ICDAR 2003.},
+  file = {/Users/ben/Zotero/storage/LMRU958B/Wang et al. - End-to-End Text Recognition with Convolutional Neu.pdf},
+  langid = {english}
+}
+
+@article{wang2019,
+  title = {{{3D Human Pose Machines}} with {{Self}}-Supervised {{Learning}}},
+  author = {Wang, Keze and Lin, Liang and Jiang, Chenhan and Qian, Chen and Wei, Pengxu},
+  date = {2019-01-14},
+  url = {http://arxiv.org/abs/1901.03798},
+  urldate = {2020-05-28},
+  abstract = {Driven by recent computer vision and robotic applications, recovering 3D human poses has become increasingly important and attracted growing interests. In fact, completing this task is quite challenging due to the diverse appearances, viewpoints, occlusions and inherently geometric ambiguities inside monocular images. Most of the existing methods focus on designing some elaborate priors /constraints to directly regress 3D human poses based on the corresponding 2D human pose-aware features or 2D pose predictions.},
+  archivePrefix = {arXiv},
+  eprint = {1901.03798},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/BSWDVDZV/Wang et al. - 2019 - 3D Human Pose Machines with Self-supervised Learni.pdf},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  langid = {english},
+  primaryClass = {cs}
+}
+
+@inproceedings{wei2016,
+  title = {Convolutional {{Pose Machines}}},
+  author = {Wei, Shih-En and Ramakrishna, Varun and Kanade, Takeo and Sheikh, Yaser},
+  date = {2016},
+  pages = {4724--4732},
+  url = {https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Wei_Convolutional_Pose_Machines_CVPR_2016_paper.html},
+  urldate = {2020-05-29},
+  eventtitle = {Proceedings of the {{IEEE Conference}} on {{Computer Vision}} and {{Pattern Recognition}}},
+  file = {/Users/ben/Zotero/storage/SSJ9VPMC/Wei et al. - 2016 - Convolutional Pose Machines.pdf;/Users/ben/Zotero/storage/U52E2Z3W/Wei_Convolutional_Pose_Machines_CVPR_2016_paper.html}
+}
+
+@article{weiss2016,
+  title = {A Survey of Transfer Learning},
+  author = {Weiss, Karl and Khoshgoftaar, Taghi M. and Wang, DingDing},
+  date = {2016-12},
+  journaltitle = {Journal of Big Data},
+  shortjournal = {J Big Data},
+  volume = {3},
+  pages = {9},
+  issn = {2196-1115},
+  doi = {10.1186/s40537-016-0043-6},
+  url = {http://journalofbigdata.springeropen.com/articles/10.1186/s40537-016-0043-6},
+  urldate = {2020-06-04},
+  abstract = {Machine learning and data mining techniques have been used in numerous real-world applications. An assumption of traditional machine learning methodologies is the training data and testing data are taken from the same domain, such that the input feature space and data distribution characteristics are the same. However, in some real-world machine learning scenarios, this assumption does not hold. There are cases where training data is expensive or difficult to collect. Therefore, there is a need to create high-performance learners trained with more easily obtained data from different domains. This methodology is referred to as transfer learning. This survey paper formally defines transfer learning, presents information on current solutions, and reviews applications applied to transfer learning. Lastly, there is information listed on software downloads for various transfer learning solutions and a discussion of possible future research work. The transfer learning solutions surveyed are independent of data size and can be applied to big data environments.},
+  file = {/Users/ben/Zotero/storage/3CCGM4PM/Weiss et al. - 2016 - A survey of transfer learning.pdf},
+  langid = {english},
+  number = {1}
+}
+
+@article{wojna2017,
+  title = {Attention-Based {{Extraction}} of {{Structured Information}} from {{Street View Imagery}}},
+  author = {Wojna, Zbigniew and Gorban, Alex and Lee, Dar-Shyang and Murphy, Kevin and Yu, Qian and Li, Yeqing and Ibarz, Julian},
+  date = {2017-08-20},
+  url = {http://arxiv.org/abs/1704.03549},
+  urldate = {2020-05-31},
+  abstract = {We present a neural network model — based on Convolutional Neural Networks, Recurrent Neural Networks and a novel attention mechanism — which achieves 84.2\% accuracy on the challenging French Street Name Signs (FSNS) dataset, significantly outperforming the previous state of the art (Smith’16), which achieved 72.46\%. Furthermore, our new method is much simpler and more general than the previous approach. To demonstrate the generality of our model, we show that it also performs well on an even more challenging dataset derived from Google Street View, in which the goal is to extract business names from store fronts. Finally, we study the speed/accuracy tradeoff that results from using CNN feature extractors of different depths. Surprisingly, we find that deeper is not always better (in terms of accuracy, as well as speed). Our resulting model is simple, accurate and fast, allowing it to be used at scale on a variety of challenging real-world text extraction problems.},
+  archivePrefix = {arXiv},
+  eprint = {1704.03549},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/HH29UBLJ/Wojna et al. - 2017 - Attention-based Extraction of Structured Informati.pdf},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  langid = {english},
+  primaryClass = {cs}
+}
+
+@article{xiang2018,
+  title = {{{PoseCNN}}: {{A Convolutional Neural Network}} for {{6D Object Pose Estimation}} in {{Cluttered Scenes}}},
+  shorttitle = {{{PoseCNN}}},
+  author = {Xiang, Yu and Schmidt, Tanner and Narayanan, Venkatraman and Fox, Dieter},
+  date = {2018-05-26},
+  url = {http://arxiv.org/abs/1711.00199},
+  urldate = {2020-06-02},
+  abstract = {Estimating the 6D pose of known objects is important for robots to interact with the real world. The problem is challenging due to the variety of objects as well as the complexity of a scene caused by clutter and occlusions between objects. In this work, we introduce PoseCNN, a new Convolutional Neural Network for 6D object pose estimation. PoseCNN estimates the 3D translation of an object by localizing its center in the image and predicting its distance from the camera. The 3D rotation of the object is estimated by regressing to a quaternion representation. We also introduce a novel loss function that enables PoseCNN to handle symmetric objects. In addition, we contribute a large scale video dataset for 6D object pose estimation named the YCB-Video dataset. Our dataset provides accurate 6D poses of 21 objects from the YCB dataset observed in 92 videos with 133,827 frames. We conduct extensive experiments on our YCB-Video dataset and the OccludedLINEMOD dataset to show that PoseCNN is highly robust to occlusions, can handle symmetric objects, and provide accurate pose estimation using only color images as input. When using depth data to further refine the poses, our approach achieves state-of-the-art results on the challenging OccludedLINEMOD dataset. Our code and dataset are available at https://rse-lab.cs.washington.edu/projects/posecnn/.},
+  archivePrefix = {arXiv},
+  eprint = {1711.00199},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/2BMKIWEX/Xiang et al. - 2018 - PoseCNN A Convolutional Neural Network for 6D Obj.pdf;/Users/ben/Zotero/storage/UX9GF8DA/1711.html},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Robotics},
+  primaryClass = {cs}
+}
+
+@article{xiao2018,
+  title = {Simple {{Baselines}} for {{Human Pose Estimation}} and {{Tracking}}},
+  author = {Xiao, Bin and Wu, Haiping and Wei, Yichen},
+  date = {2018-08-21},
+  url = {http://arxiv.org/abs/1804.06208},
+  urldate = {2020-05-28},
+  abstract = {There has been significant progress on pose estimation and increasing interests on pose tracking in recent years. At the same time, the overall algorithm and system complexity increases as well, making the algorithm analysis and comparison more difficult. This work provides simple and effective baseline methods. They are helpful for inspiring and evaluating new ideas for the field. State-of-the-art results are achieved on challenging benchmarks. The code will be available at https://github. com/leoxiaobin/pose.pytorch.},
+  archivePrefix = {arXiv},
+  eprint = {1804.06208},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/CNMXL4BR/Xiao et al. - 2018 - Simple Baselines for Human Pose Estimation and Tra.pdf},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition,performance},
+  langid = {english},
+  primaryClass = {cs}
+}
+
+@book{yang2020,
+  title = {Transfer {{Learning}}},
+  author = {Yang, Qiang and Zhang, Yu and Dai, Wenyuan and Pan, Sinno Jialin},
+  date = {2020-02-13},
+  publisher = {{Cambridge University Press}},
+  abstract = {Transfer learning deals with how systems can quickly adapt themselves to new situations, tasks and environments. It gives machine learning systems the ability to leverage auxiliary data and models to help solve target problems when there is only a small amount of data available. This makes such systems more reliable and robust, keeping the machine learning model faced with unforeseeable changes from deviating too much from expected performance. At an enterprise level, transfer learning allows knowledge to be reused so experience gained once can be repeatedly applied to the real world. For example, a pre-trained model that takes account of user privacy can be downloaded and adapted at the edge of a computer network. This self-contained, comprehensive reference text describes the standard algorithms and demonstrates how these are used in different transfer learning paradigms. It offers a solid grounding for newcomers as well as new insights for seasoned researchers and developers.},
+  eprint = {dG_IDwAAQBAJ},
+  eprinttype = {googlebooks},
+  isbn = {978-1-107-01690-3},
+  keywords = {Computers / Computer Vision & Pattern Recognition,Computers / Intelligence (AI) & Semantics,Computers / Natural Language Processing,Mathematics / Discrete Mathematics,Mathematics / Probability & Statistics / General},
+  langid = {english},
+  pagetotal = {393}
+}
+
+@inproceedings{zhang2019,
+  title = {Fast {{Human Pose Estimation}}},
+  booktitle = {2019 {{IEEE}}/{{CVF Conference}} on {{Computer Vision}} and {{Pattern Recognition}} ({{CVPR}})},
+  author = {Zhang, Feng and Zhu, Xiatian and Ye, Mao},
+  date = {2019-06},
+  pages = {3512--3521},
+  publisher = {{IEEE}},
+  location = {{Long Beach, CA, USA}},
+  doi = {10.1109/CVPR.2019.00363},
+  url = {https://ieeexplore.ieee.org/document/8953878/},
+  urldate = {2020-05-28},
+  abstract = {Existing human pose estimation approaches often only consider how to improve the model generalisation performance, but putting aside the significant efficiency problem. This leads to the development of heavy models with poor scalability and cost-effectiveness in practical use. In this work, we investigate the under-studied but practically critical pose model efficiency problem. To this end, we present a new Fast Pose Distillation (FPD) model learning strategy. Specifically, the FPD trains a lightweight pose neural network architecture capable of executing rapidly with low computational cost. It is achieved by effectively transferring the pose structure knowledge of a strong teacher network. Extensive evaluations demonstrate the advantages of our FPD method over a broad range of state-of-the-art pose estimation approaches in terms of model cost-effectiveness on two standard benchmark datasets, MPII Human Pose and Leeds Sports Pose.},
+  eventtitle = {2019 {{IEEE}}/{{CVF Conference}} on {{Computer Vision}} and {{Pattern Recognition}} ({{CVPR}})},
+  file = {/Users/ben/Zotero/storage/Z46TCJAJ/Zhang et al. - 2019 - Fast Human Pose Estimation.pdf},
+  isbn = {978-1-72813-293-8},
+  langid = {english}
+}
+
+@article{zhang2020,
+  title = {Fusing {{Wearable IMUs}} with {{Multi}}-{{View Images}} for {{Human Pose Estimation}}: {{A Geometric Approach}}},
+  shorttitle = {Fusing {{Wearable IMUs}} with {{Multi}}-{{View Images}} for {{Human Pose Estimation}}},
+  author = {Zhang, Zhe and Wang, Chunyu and Qin, Wenhu and Zeng, Wenjun},
+  date = {2020-04-10},
+  url = {http://arxiv.org/abs/2003.11163},
+  urldate = {2020-06-01},
+  abstract = {We propose to estimate 3D human pose from multi-view images and a few IMUs attached at person's limbs. It operates by firstly detecting 2D poses from the two signals, and then lifting them to the 3D space. We present a geometric approach to reinforce the visual features of each pair of joints based on the IMUs. This notably improves 2D pose estimation accuracy especially when one joint is occluded. We call this approach Orientation Regularized Network (ORN). Then we lift the multi-view 2D poses to the 3D space by an Orientation Regularized Pictorial Structure Model (ORPSM) which jointly minimizes the projection error between the 3D and 2D poses, along with the discrepancy between the 3D pose and IMU orientations. The simple two-step approach reduces the error of the state-of-the-art by a large margin on a public dataset. Our code will be released at https://github.com/CHUNYUWANG/imu-human-pose-pytorch.},
+  archivePrefix = {arXiv},
+  eprint = {2003.11163},
+  eprinttype = {arxiv},
+  file = {/Users/ben/Zotero/storage/3P7Y2HMY/Zhang et al. - 2020 - Fusing Wearable IMUs with Multi-View Images for Hu.pdf;/Users/ben/Zotero/storage/YX88WUEH/2003.html},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  primaryClass = {cs}
+}
+
+@inproceedings{zhou2013,
+  title = {Identity, Location, Disease and More: Inferring Your Secrets from Android Public Resources},
+  shorttitle = {Identity, Location, Disease and More},
+  booktitle = {Proceedings of the 2013 {{ACM SIGSAC}} Conference on {{Computer}} \& Communications Security - {{CCS}} '13},
+  author = {Zhou, Xiaoyong and Demetriou, Soteris and He, Dongjing and Naveed, Muhammad and Pan, Xiaorui and Wang, XiaoFeng and Gunter, Carl A. and Nahrstedt, Klara},
+  date = {2013},
+  pages = {1017--1028},
+  publisher = {{ACM Press}},
+  location = {{Berlin, Germany}},
+  doi = {10.1145/2508859.2516661},
+  url = {http://dl.acm.org/citation.cfm?doid=2508859.2516661},
+  urldate = {2020-05-31},
+  abstract = {The design of Android is based on a set of unprotected shared resources, including those inherited from Linux (e.g., Linux public directories). However, the dramatic development in Android applications (app for short) makes available a large amount of public background information (e.g., social networks, public online services), which can potentially turn such originally harmless resource sharing into serious privacy breaches. In this paper, we report our work on this important yet understudied problem. We discovered three unexpected channels of information leaks on Android: per-app data-usage statistics, ARP information, and speaker status (on or off). By monitoring these channels, an app without any permission may acquire sensitive information such as smartphone user’s identity, the disease condition she is interested in, her geo-locations and her driving route, from top-of-the-line Android apps. Furthermore, we show that using existing and new techniques, this zero-permission app can both determine when its target (a particular application) is running and send out collected data stealthily to a remote adversary. These findings call into question the soundness of the design assumptions on shared resources, and demand effective solutions. To this end, we present a mitigation mechanism for achieving a delicate balance between utility and privacy of such resources.},
+  eventtitle = {The 2013 {{ACM SIGSAC}} Conference},
+  file = {/Users/ben/Zotero/storage/GIKW7Y3W/Zhou et al. - 2013 - Identity, location, disease and more inferring yo.pdf},
+  isbn = {978-1-4503-2477-9},
+  langid = {english}
+}
+
+@online{zotero-100,
+  title = {Augmented {{Reality}}},
+  journaltitle = {Apple Developer},
+  url = {https://developer.apple.com/augmented-reality/},
+  urldate = {2020-05-30},
+  abstract = {Build unparalleled augmented reality experiences for hundreds of millions of users on iOS using ARKit 3, Reality Composer, and RealityKit.},
+  file = {/Users/ben/Zotero/storage/2LPBE7CM/augmented-reality.html},
+  langid = {english}
+}
+
+@video{zotero-143,
+  title = {2  {{ResNet Architecture}}},
+  url = {https://www.youtube.com/watch?v=0tBPSxioIZE},
+  urldate = {2020-05-31}
+}
+
+@video{zotero-144,
+  title = {{{C4W2L04 Why ResNets Work}}},
+  url = {https://www.youtube.com/watch?v=RYth6EbBUqM},
+  urldate = {2020-05-31},
+  abstract = {Take the Deep Learning Specialization: http://bit.ly/2IlIHpJ
+Check out all our courses: https://www.deeplearning.ai
+Subscribe to The Batch, our weekly newsletter: https://www.deeplearning.ai/thebatch
+
+Follow us: 
+Twitter: https://twitter.com/deeplearningai\_
+Facebook: https://www.facebook.com/deeplearningHQ/
+Linkedin: https://www.linkedin.com/company/deep...}
+}
+
+@video{zotero-148,
+  title = {{{C4W2L03 Resnets}}},
+  url = {https://www.youtube.com/watch?v=ZILIbUvp5lk},
+  urldate = {2020-05-31},
+  abstract = {Take the Deep Learning Specialization: http://bit.ly/2vKdud0
+Check out all our courses: https://www.deeplearning.ai
+Subscribe to The Batch, our weekly newsletter: https://www.deeplearning.ai/thebatch
+
+Follow us: 
+Twitter: https://twitter.com/deeplearningai\_
+Facebook: https://www.facebook.com/deeplearningHQ/
+Linkedin: https://www.linkedin.com/company/deep...}
+}
+
+@online{zotero-152,
+  title = {Swift - {{Retrieving}} Bone Rotations from {{3D Skeleton}} in {{ARKit}} 3},
+  journaltitle = {Stack Overflow},
+  url = {https://stackoverflow.com/questions/58056432/retrieving-bone-rotations-from-3d-skeleton-in-arkit-3},
+  urldate = {2020-05-31},
+  file = {/Users/ben/Zotero/storage/MXPABSLC/retrieving-bone-rotations-from-3d-skeleton-in-arkit-3.html}
+}
+
+@online{zotero-157,
+  title = {Deep Learning - {{Why}} Is Resnet Faster than Vgg},
+  journaltitle = {Cross Validated},
+  url = {https://stats.stackexchange.com/questions/280179/why-is-resnet-faster-than-vgg},
+  urldate = {2020-05-31},
+  file = {/Users/ben/Zotero/storage/PLDBWJXM/why-is-resnet-faster-than-vgg.html}
+}
+
+@online{zotero-159,
+  title = {Global Mobile {{OS}} Market Share},
+  journaltitle = {Statista},
+  url = {https://www.statista.com/statistics/266136/global-market-share-held-by-smartphone-operating-systems/},
+  urldate = {2020-05-31},
+  abstract = {This statistic shows the global mobile OS market share 2009-2018. In Q2/2018, Android market share amounted to 88 percent of all smartphones sold to end users.},
+  file = {/Users/ben/Zotero/storage/SN4PW2ZW/global-market-share-held-by-smartphone-operating-systems.html},
+  langid = {english}
+}
+
+@online{zotero-175,
+  title = {{{PoseTrack}}},
+  url = {https://posetrack.net},
+  urldate = {2020-05-31},
+  abstract = {PoseTrack Dataset and Benchmark},
+  file = {/Users/ben/Zotero/storage/4SHEAMX4/posetrack.net.html},
+  langid = {english}
+}
+
+@online{zotero-177,
+  title = {Leeds {{Sports Pose Dataset}}},
+  url = {https://sam.johnson.io/research/lsp.html},
+  urldate = {2020-05-31},
+  file = {/Users/ben/Zotero/storage/MLDB9CHR/lsp.html}
+}
+
+@online{zotero-193,
+  title = {{{MobileNets}}: {{Open}}-{{Source Models}} for {{Efficient On}}-{{Device Vision}}},
+  shorttitle = {{{MobileNets}}},
+  journaltitle = {Google AI Blog},
+  url = {http://ai.googleblog.com/2017/06/mobilenets-open-source-models-for.html},
+  urldate = {2020-05-31},
+  abstract = {Posted by Andrew G. Howard, Senior Software Engineer and Menglong Zhu, Software Engineer (Cross-posted on the Google Open Source Blog ) Deep...},
+  file = {/Users/ben/Zotero/storage/2HK627KE/mobilenets-open-source-models-for.html},
+  langid = {english}
+}
+
+@online{zotero-199,
+  title = {Tensorflow/Models},
+  journaltitle = {GitHub},
+  url = {https://github.com/tensorflow/models},
+  urldate = {2020-05-31},
+  abstract = {Models and examples built with TensorFlow. Contribute to tensorflow/models development by creating an account on GitHub.},
+  file = {/Users/ben/Zotero/storage/ADKSDGK7/official.html},
+  langid = {english}
+}
+
+@online{zotero-205,
+  title = {Personal {{Trainer}} - {{Kaia}}},
+  journaltitle = {App Store},
+  url = {https://apps.apple.com/us/app/personal-trainer-kaia/id1393680040},
+  urldate = {2020-05-31},
+  abstract = {‎Kaia Personal Trainer uses patent-pending AI-powered motion tracking technology, without the need for additional hardware, transforming your iPhone into a virtual personal trainer and helping you achieve correct exercise execution.},
+  file = {/Users/ben/Zotero/storage/RNHD25AK/id1393680040.html},
+  langid = {american}
+}
+
+@online{zotero-207,
+  ids = {zotero-208},
+  title = {{{HomeCourt}}},
+  url = {https://www.homecourt.ai/},
+  urldate = {2020-05-31},
+  file = {/Users/ben/Zotero/storage/8KJHHWJA/www.homecourt.ai.html}
+}
+
+@online{zotero-276,
+  title = {Total {{Capture}}: {{3D Human Pose Estimation Fusing Video}} and {{Inertial Sensors}}},
+  url = {https://cvssp.org/data/totalcapture/},
+  urldate = {2020-06-01},
+  file = {/Users/ben/Zotero/storage/RITZSUWJ/totalcapture.html}
+}
+
+@online{zotero-297,
+  title = {Learning and {{Generalization}} in {{Overparameterized Neural Networks}}, {{Going Beyond Two Layers}}},
+  journaltitle = {GroundAI},
+  url = {https://www.groundai.com/project/learning-and-generalization-in-overparameterized-neural-networks-going-beyond-two-layers/1},
+  urldate = {2020-06-01},
+  abstract = {Neural networks have great success in many machine learning applications, but the fundamental learning theory behind them remains largely unsolved. Learning neural networks is NP-hard, but in practice, simple algorithms like stochastic gradient descent (SGD) often produce good solutions. Moreover, it is observed that overparameterization --- designing networks whose number of parameters is larger than statistically needed to perfectly fit the data --- improves both optimization and generalization, appearing to contradict traditional learning theory. In this work, we extend the theoretical understanding of two and three-layer neural networks in the overparameterized regime. We prove that, using overparameterized neural networks, one …},
+  file = {/Users/ben/Zotero/storage/4M2IS2FT/1.html},
+  langid = {english}
+}
+
+@online{zotero-299,
+  title = {How {{Do You Know If You Need Physical Therapy}}?},
+  journaltitle = {Verywell Health},
+  url = {https://www.verywellhealth.com/physical-therapy-4014670},
+  urldate = {2020-06-01},
+  abstract = {What is physical therapy and what happens during physical therapy treatments? How do you know if you need physcial therapy?},
+  file = {/Users/ben/Zotero/storage/H55BCQT9/physical-therapy-4014670.html},
+  langid = {english}
+}
+
+@online{zotero-336,
+  title = {Pose {{Machines}}},
+  url = {https://www.cs.cmu.edu/~vramakri/poseMachines.html},
+  urldate = {2020-06-02},
+  file = {/Users/ben/Zotero/storage/IGQL9KPJ/poseMachines.html}
+}
+
+@video{zotero-358,
+  title = {{{ML}} Solutions for {{Live Perception}} ({{TF Dev Summit}} '20)},
+  url = {https://www.youtube.com/watch?v=sb6iTRvlJ9o},
+  urldate = {2020-06-02},
+  abstract = {Live Perception is a challenging scenario enabled by on-device ML, in real-time, and with low-latency. In this talk you will learn about best practices and how to use TensorFlow Lite and TF.js to enable Live Perception solutions by diving into the technical details of 3 unique ML solutions: Face Meshes, Hand Poses and Object cuboids.
+
+Speaker:
+Matthias Grundmann - Research Scientist
+
+Resources:
+BlazeFace → https://goo.gle/2Tves6j
+GitHub Face Detection (GPU) → https://goo.gle/39wK8NY
+GitHub BlazeFace → https://goo.gle/39uCX9f
+Octi → https://goo.gle/2PT1Bs2
+Model Card - BlazeFace Face Detection → https://goo.gle/2TFVKHQ
+On-Device, Real-Time Hand Tracking with MediaPipe blog → https://goo.gle/3auULRq
+Face Mesh Demo → https://goo.gle/39uDFDr
+GitHub MediaPipe → https://goo.gle/38un7Kf
+
+Watch all TensorFlow Dev Summit 2020 sessions → https://goo.gle/TFDS20
+Subscribe to the TensorFlow YouTube channel → https://goo.gle/TensorFlow}
+}
+
+@video{zotero-361,
+  title = {Chen {{Feldman}} - {{React Native}} - {{Under}} the {{Bridge}} | {{React Next}} 2019},
+  url = {https://www.youtube.com/watch?v=_IiDHmAPH28},
+  urldate = {2020-06-03},
+  abstract = {ReactNext 2019
+www.react-next.com
+Tel Aviv, Israel
+@reactnext
+
+Even if you are familiar with React Native, do you really know how it works? 
+
+Did you know about the bridge which is the secret sauce of React Native and makes it work on every platform and gives you the option to create a Native-Like apps? 
+
+In my talk,I am going to reveal that there is no magic in React Native. 
+
+There is a real smart mechanism that lets the JS code communicate with the Native code. 
+
+A major part of this mechanism is The Bridge which is written in C++ (wait..what??) and mapping between all you app modules and even lets you create custom ones of your own! 
+
+In Addition I will talk about its new architecture. 
+
+If you are a curious React developer who believes that knowing the internals of a library makes you a better developer, join me to the journey Under The Bridge.
+
+I am a software developer for more than 12 years and currently one of the Founders \&amp; Tech Lead @ Vamos which is a group of Awesome Freelance Developers , who worked in the last year with more than 10 clients using ReactJS and React Native (including moving a huge company from Israel from Angular to React). In the last year I created and currently hosting one of the best podcast for programmers in Israel and created until now 20+ episodes (React, Node.js, Deep Learning, Kubernetes and many more). I really enjoy lecturing to other people and to make complex technical subjects accessible for hearing and learning.
+
+Latest RN news from Core Team- https://facebook.github.io/react-nati...
+Parashuram post about the new architecture http://blog.nparashuram.com/2019/01/r...
+Pharam new 2019 lecture React Amsterdam — https://www.youtube.com/watch?v=NCLkL...
+https://levelup.gitconnected.com/wait...
+Layout engine explnation — https://www.freecodecamp.org/news/how...
+Four parts article about the new architecture (part 1 here links to the others)— https://formidable.com/blog/2019/reac...
+Amazing lecture from React Amsterdam — https://www.youtube.com/watch?v=NCLkL...
+FB State of React Q4 2018 — http://facebook.github.io/react-nativ...}
+}
+
+@online{zotero-362,
+  title = {Home | {{Foodprint}}},
+  url = {https://foodprint.orth.uk/},
+  urldate = {2020-06-03},
+  file = {/Users/ben/Zotero/storage/VTJJYCHQ/foodprint.orth.uk.html}
+}
+
+@online{zotero-366,
+  title = {Real-Time {{Human Pose Estimation}} in the {{Browser}} with {{TensorFlow}}.Js — {{The TensorFlow Blog}}},
+  url = {https://blog.tensorflow.org/2018/05/real-time-human-pose-estimation-in.html},
+  urldate = {2020-06-03}
+}
+
+@online{zotero-367,
+  title = {Move {{Mirror}}: {{An AI Experiment}} with {{Pose Estimation}} in the {{Browser}} Using {{TensorFlow}}.Js — {{The TensorFlow Blog}}},
+  url = {https://blog.tensorflow.org/2018/07/move-mirror-ai-experiment-with-pose-estimation-tensorflow-js.html},
+  urldate = {2020-06-03}
+}
+
+@online{zotero-368,
+  title = {{{CMU}} - {{Flintbox}}},
+  url = {https://cmu.flintbox.com/#technologies/b820c21d-8443-4aa2-a49f-8919d93a8740},
+  urldate = {2020-06-03},
+  file = {/Users/ben/Zotero/storage/JA9BPEEU/cmu.flintbox.com.html}
+}
+
+@online{zotero-379,
+  title = {{{PNY NVIDIA Quadro GP100}} 4x {{DP}} 1x {{DVI}}-{{D}} 16 {{GB PCI Express Professional Graphic Card}} - {{Black}}: {{Amazon}}.Co.Uk: {{Computers}} \& {{Accessories}}},
+  url = {https://www.amazon.co.uk/PNY-NVIDIA-Express-Professional-Graphic/dp/B06X9X9PSS},
+  urldate = {2020-06-04},
+  file = {/Users/ben/Zotero/storage/W2YDYSM5/B06X9X9PSS.html}
+}
+
+@online{zotero-381,
+  title = {Nvidia {{Titan RTX TITAN X Graphic Card}} 24756 {{MB}}: {{Amazon}}.Co.Uk: {{Computers}} \& {{Accessories}}},
+  url = {https://www.amazon.co.uk/dp/B07L8YGDL5?tag=duckduckgo-brave-uk-21&linkCode=osi&th=1&psc=1},
+  urldate = {2020-06-04},
+  file = {/Users/ben/Zotero/storage/RDUXJ34H/B07L8YGDL5.html}
+}
+
+@video{zotero-397,
+  title = {Salad {{Fingers}} 1: {{Spoons}}},
+  shorttitle = {Salad {{Fingers}} 1},
+  url = {https://www.youtube.com/watch?v=M3iOROuTuMA},
+  urldate = {2020-06-05},
+  abstract = {Salad Fingers likes spoons
+
+MERCH https://saladfingers.shop/
+PATREON https://www.patreon.com/davidfirth
+TWITTER http://twitter.com/david\_firth
+INSTAGRAM https://www.instagram.com/davidfirth66/
+FACEBOOK https://www.facebook.com/DFsaladfingers/}
+}
+
+
